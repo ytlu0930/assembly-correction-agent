@@ -1,0 +1,294 @@
+{
+  "part_count": 15,
+  "parts": [
+    {
+      "descriptor": "BLOCK_GREEN_4HOLE_2PEG",
+      "display_name": "Block Green 4 Hole 2 Peg",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_BLOCK_GREEN_4HOLE_2PEG",
+      "quantity": null,
+      "reference_image_count": 3,
+      "reference_image_paths": [
+        "raw_data/parts/part_BLOCK_GREEN_4HOLE_2PEG_01.jpg",
+        "raw_data/parts/part_BLOCK_GREEN_4HOLE_2PEG_02.jpg",
+        "raw_data/parts/part_BLOCK_GREEN_4HOLE_2PEG_03.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_5e8cf7822c0a71edc8ca",
+        "record_87650d7a860d8261132d",
+        "record_aacc158553798ecda140"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "BLOCK_YELLOW_CUBE",
+      "display_name": "Block Yellow Cube",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_BLOCK_YELLOW_CUBE",
+      "quantity": null,
+      "reference_image_count": 3,
+      "reference_image_paths": [
+        "raw_data/parts/part_BLOCK_YELLOW_CUBE_01.jpg",
+        "raw_data/parts/part_BLOCK_YELLOW_CUBE_02.jpg",
+        "raw_data/parts/part_BLOCK_YELLOW_CUBE_03.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_0a44beefadf8ab7daa8e",
+        "record_d5383c27b33f46b9d8c9",
+        "record_c9938e10bdb8e8c4defb"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "CONNECTOR_ORANGE",
+      "display_name": "Connector Orange",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_CONNECTOR_ORANGE",
+      "quantity": null,
+      "reference_image_count": 4,
+      "reference_image_paths": [
+        "raw_data/parts/part_CONNECTOR_ORANGE_01.jpg",
+        "raw_data/parts/part_CONNECTOR_ORANGE_02.jpg",
+        "raw_data/parts/part_CONNECTOR_ORANGE_03.jpg",
+        "raw_data/parts/part_CONNECTOR_ORANGE_04.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_176b76605665cf96f14f",
+        "record_f76dd171e91935f5de02",
+        "record_d41ac42691ae6887de92",
+        "record_7084783ca4db4dd1c757"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "EYE_BALL",
+      "display_name": "Eye Ball",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_EYE_BALL",
+      "quantity": null,
+      "reference_image_count": 4,
+      "reference_image_paths": [
+        "raw_data/parts/part_EYE_BALL_01.jpg",
+        "raw_data/parts/part_EYE_BALL_02.jpg",
+        "raw_data/parts/part_EYE_BALL_03.jpg",
+        "raw_data/parts/part_EYE_BALL_04.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_481d5ef5805ac04de425",
+        "record_1cf2543552617a918cd3",
+        "record_15ecd1febc775bd82b70",
+        "record_d0617ab59193ce3852b7"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "JOINT_BLUE_Y",
+      "display_name": "Joint Blue Y",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_JOINT_BLUE_Y",
+      "quantity": null,
+      "reference_image_count": 3,
+      "reference_image_paths": [
+        "raw_data/parts/part_JOINT_BLUE_Y_01.jpg",
+        "raw_data/parts/part_JOINT_BLUE_Y_02.jpg",
+        "raw_data/parts/part_JOINT_BLUE_Y_03.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_5496f3f3d6802a5af42b",
+        "record_a11c332d6b6963f1399c",
+        "record_a28683b4c5603d48282e"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "JOINT_YELLOW_H",
+      "display_name": "Joint Yellow H",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_JOINT_YELLOW_H",
+      "quantity": null,
+      "reference_image_count": 4,
+      "reference_image_paths": [
+        "raw_data/parts/part_JOINT_YELLOW_H_01.jpg",
+        "raw_data/parts/part_JOINT_YELLOW_H_02.jpg",
+        "raw_data/parts/part_JOINT_YELLOW_H_03.jpg",
+        "raw_data/parts/part_JOINT_YELLOW_H_04.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_7535e02a7e87cc7a21ec",
+        "record_182e4fae2d97edb4e854",
+        "record_e0b45af962647ee3de02",
+        "record_62491d548127f924c36f"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "LINK_BLUE_5HOLE",
+      "display_name": "Link Blue 5 Hole",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_LINK_BLUE_5HOLE",
+      "quantity": null,
+      "reference_image_count": 2,
+      "reference_image_paths": [
+        "raw_data/parts/part_LINK_BLUE_5HOLE_01.jpg",
+        "raw_data/parts/part_LINK_BLUE_5HOLE_02.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_03f283224ac3ed44eeda",
+        "record_87d11e1c1d1f5627c55f"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "LINK_GREEN_5HOLE",
+      "display_name": "Link Green 5 Hole",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_LINK_GREEN_5HOLE",
+      "quantity": null,
+      "reference_image_count": 2,
+      "reference_image_paths": [
+        "raw_data/parts/part_LINK_GREEN_5HOLE_01.jpg",
+        "raw_data/parts/part_LINK_GREEN_5HOLE_02.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_0ac94410fb53605a0c59",
+        "record_048bd680c454aa13cc93"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "LINK_RED_3HOLE",
+      "display_name": "Link Red 3 Hole",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_LINK_RED_3HOLE",
+      "quantity": null,
+      "reference_image_count": 2,
+      "reference_image_paths": [
+        "raw_data/parts/part_LINK_RED_3HOLE_01.jpg",
+        "raw_data/parts/part_LINK_RED_3HOLE_02.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_0f34d6b7bc169e4cf73c",
+        "record_33cd117ad4f1064effb5"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "PIN_RED_SHORT",
+      "display_name": "Pin Red Short",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_PIN_RED_SHORT",
+      "quantity": null,
+      "reference_image_count": 2,
+      "reference_image_paths": [
+        "raw_data/parts/part_PIN_RED_SHORT_01.jpg",
+        "raw_data/parts/part_PIN_RED_SHORT_02.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_da56fb2bfb5308e2d1b1",
+        "record_b98dc1b580863780b995"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "PIN_YELLOW",
+      "display_name": "Pin Yellow",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_PIN_YELLOW",
+      "quantity": null,
+      "reference_image_count": 5,
+      "reference_image_paths": [
+        "raw_data/parts/part_PIN_YELLOW_01.jpg",
+        "raw_data/parts/part_PIN_YELLOW_02.jpg",
+        "raw_data/parts/part_PIN_YELLOW_03.jpg",
+        "raw_data/parts/part_PIN_YELLOW_04.jpg",
+        "raw_data/parts/part_PIN_YELLOW_05.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_de76062614751165035f",
+        "record_ab49a4c63b66a8165bb9",
+        "record_8d888a291d758a3a5d2f",
+        "record_44e4f79f6fad7d61e056",
+        "record_ff194db0e05a23e7f768"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "PLATE_BLUE_TRIANGLE",
+      "display_name": "Plate Blue Triangle",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_PLATE_BLUE_TRIANGLE",
+      "quantity": null,
+      "reference_image_count": 5,
+      "reference_image_paths": [
+        "raw_data/parts/part_PLATE_BLUE_TRIANGLE_01.jpg",
+        "raw_data/parts/part_PLATE_BLUE_TRIANGLE_02.jpg",
+        "raw_data/parts/part_PLATE_BLUE_TRIANGLE_03.jpg",
+        "raw_data/parts/part_PLATE_BLUE_TRIANGLE_04.jpg",
+        "raw_data/parts/part_PLATE_BLUE_TRIANGLE_05.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_25accde2fb8970e4b363",
+        "record_faef94c523545b47849d",
+        "record_82c0287d0684c2e46a0e",
+        "record_630300810db636e34469",
+        "record_a19b46a887d7efc73c86"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "ROD_GREEN_LONG",
+      "display_name": "Rod Green Long",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_ROD_GREEN_LONG",
+      "quantity": null,
+      "reference_image_count": 1,
+      "reference_image_paths": [
+        "raw_data/parts/part_ROD_GREEN_LONG_01.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_9f0095b073828382e414"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "WHEEL_BLUE_LARGE",
+      "display_name": "Wheel Blue Large",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_WHEEL_BLUE_LARGE",
+      "quantity": null,
+      "reference_image_count": 3,
+      "reference_image_paths": [
+        "raw_data/parts/part_WHEEL_BLUE_LARGE_01.jpg",
+        "raw_data/parts/part_WHEEL_BLUE_LARGE_02.jpg",
+        "raw_data/parts/part_WHEEL_BLUE_LARGE_03.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_0aa5bcc137753c8d1de6",
+        "record_558ab6fbfb4a5ce2961c",
+        "record_917c9089764d8e9bfadb"
+      ],
+      "source": "dataset_local"
+    },
+    {
+      "descriptor": "WHEEL_BLUE_SMALL",
+      "display_name": "Wheel Blue Small",
+      "is_manufacturer_identifier": false,
+      "part_id": "PART_WHEEL_BLUE_SMALL",
+      "quantity": null,
+      "reference_image_count": 3,
+      "reference_image_paths": [
+        "raw_data/parts/part_WHEEL_BLUE_SMALL_01.jpg",
+        "raw_data/parts/part_WHEEL_BLUE_SMALL_02.jpg",
+        "raw_data/parts/part_WHEEL_BLUE_SMALL_03.jpg"
+      ],
+      "reference_image_record_ids": [
+        "record_a97f7399eb7d4f0cb896",
+        "record_1fae0d8c58bd3a430112",
+        "record_bd58d0b31f9a35c09d27"
+      ],
+      "source": "dataset_local"
+    }
+  ],
+  "reference_image_count": 46,
+  "schema_version": "1.0"
+}
