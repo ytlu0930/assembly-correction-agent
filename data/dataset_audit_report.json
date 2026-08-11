@@ -1,0 +1,70 @@
+{
+  "assembly_images": 147,
+  "case_count": 23,
+  "cross_view_duplicate_content_cases": [
+    "model08|step01|correct|03"
+  ],
+  "directory_filename_mismatches": [],
+  "duplicate_hashes": [
+    {
+      "record_ids": [
+        "record_b320e083f5396c6dc61b",
+        "record_d8a6c2c94482ec09c0b3"
+      ],
+      "sha256": "17aaf3a9c69bc421399fae7cb4389f6b7b990dd994e223a6da9a2696c30692d8"
+    },
+    {
+      "record_ids": [
+        "record_1014f3c32a78aec72328",
+        "record_fd6743b4ab0de45d34b0"
+      ],
+      "sha256": "e3fece91a603e76ed50ddc48529b93aabf07d9a77a56bc0685e47ab55d3ca814"
+    }
+  ],
+  "incomplete_cases": [
+    "model08|step01|correct|01"
+  ],
+  "invalid_records": 0,
+  "labels": [
+    "composite_error",
+    "correct",
+    "extra_part",
+    "missing_part",
+    "position_error",
+    "wrong_part"
+  ],
+  "malformed_extension_count": 2,
+  "malformed_filename_count": 0,
+  "models": [
+    "model03",
+    "model08"
+  ],
+  "part_images": 46,
+  "schema_version": "1.0",
+  "semantic_key_collisions": [],
+  "steps": {
+    "model03": [
+      "step01",
+      "step02",
+      "step03"
+    ],
+    "model08": [
+      "step01",
+      "step02",
+      "step03",
+      "step04",
+      "step05"
+    ]
+  },
+  "total_files_scanned": 193,
+  "valid_records": 191,
+  "view_distribution": {
+    "back": 28,
+    "bottom": 24,
+    "front": 23,
+    "left": 23,
+    "right": 23,
+    "top": 26
+  },
+  "warning_records": 2
+}
