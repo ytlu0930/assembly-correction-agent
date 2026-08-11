@@ -1,0 +1,207 @@
+"""Google Gemini adapter with neutral inline-image identities."""
+
+from __future__ import annotations
+
+import json
+from io import BytesIO
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any
+
+from PIL import Image
+
+from assembly_agent.localization import GroundedLocalization, GroundingResult
+
+from .localization import STAGE_A_RESPONSE_SCHEMA, STAGE_B_RESPONSE_SCHEMA, StageAAnalysis, StageBLocalization
+from .schemas import COORDINATE_SPACE, VISION_RESPONSE_SCHEMA, VisionAnalysis
+
+
+class VisionConfigurationError(RuntimeError):
+    pass
+
+
+class VisionProviderError(RuntimeError):
+    pass
+
+
+@dataclass(frozen=True)
+class InlineImage:
+    neutral_id: str
+    mime_type: str
+    data: bytes
+
+
+@dataclass(frozen=True)
+class GeminiRequest:
+    prompt: str
+    current_image: InlineImage
+    reference_image: InlineImage
+    part_images: tuple[InlineImage, ...]
+    part_descriptors: tuple[str, ...]
+    metadata: dict[str, Any]
+
+
+def build_gemini_request(
+    current_path: Path,
+    reference_path: Path,
+    part_references: list[tuple[str, Path]],
+    *,
+    current_id: str = "demo_current_0001",
+    reference_id: str = "demo_reference_0001",
+) -> GeminiRequest:
+    descriptors = tuple(sorted(descriptor for descriptor, _ in part_references))
+    if len(descriptors) != len(set(descriptors)) or not descriptors:
+        raise ValueError("part descriptor candidates must be non-empty and unique")
+    prompt = (
+        "Compare CURRENT_IMAGE with CORRECT_REFERENCE of the same assembly step and camera view. "
+        "Identify whether the current assembly differs and classify the single most evident error and affected part type. "
+        "Choose target_part_descriptor only from CANDIDATE_PART_DESCRIPTORS; return null when evidence is insufficient. "
+        "Describe structural evidence, but do not localize a physical instance and do not return coordinates. "
+        "Use uncertain when the images do not support a reliable conclusion.\n"
+        f"CURRENT_IMAGE_ID={current_id}\nCORRECT_REFERENCE_ID={reference_id}\n"
+        f"CANDIDATE_PART_DESCRIPTORS={json.dumps(descriptors)}"
+    )
+    part_images = tuple(
+        InlineImage(f"part_reference_{index:04d}_{descriptor}", "image/jpeg", path.read_bytes())
+        for index, (descriptor, path) in enumerate(sorted(part_references), start=1)
+    )
+    return GeminiRequest(
+        prompt=prompt,
+        current_image=InlineImage(current_id, "image/jpeg", current_path.read_bytes()),
+        reference_image=InlineImage(reference_id, "image/jpeg", reference_path.read_bytes()),
+        part_images=part_images,
+        part_descriptors=descriptors,
+        metadata={
+            "current_image_id": current_id,
+            "reference_image_id": reference_id,
+            "part_reference_ids": tuple(image.neutral_id for image in part_images),
+        },
+    )
+
+
+class GeminiVisionAdapter:
+    def __init__(self, api_key: str, model: str, *, temperature: float = 0.0) -> None:
+        if not api_key:
+            raise VisionConfigurationError("GEMINI_API_KEY is required for the live demo")
+        if not model:
+            raise VisionConfigurationError("VISION_MODEL is required for the live demo")
+        self.api_key = api_key
+        self.model = model
+        self.temperature = temperature
+
+    def analyze(self, request: GeminiRequest) -> VisionAnalysis:
+        try:
+            from google import genai
+            from google.genai import types
+        except ImportError as error:
+            raise VisionConfigurationError("install google-genai before running the live demo") from error
+        contents: list[Any] = [request.prompt]
+        contents.extend([
+            "CURRENT_IMAGE",
+            types.Part.from_bytes(data=request.current_image.data, mime_type=request.current_image.mime_type),
+            "CORRECT_REFERENCE",
+            types.Part.from_bytes(data=request.reference_image.data, mime_type=request.reference_image.mime_type),
+            "CANDIDATE_PART_REFERENCE_IMAGES (neutral IDs followed by images)",
+        ])
+        for image in request.part_images:
+            contents.extend([image.neutral_id, types.Part.from_bytes(data=image.data, mime_type=image.mime_type)])
+        client = genai.Client(api_key=self.api_key)
+        try:
+            response = client.models.generate_content(
+                model=self.model,
+                contents=contents,
+                config=types.GenerateContentConfig(
+                    temperature=self.temperature,
+                    response_mime_type="application/json",
+                    response_json_schema=VISION_RESPONSE_SCHEMA,
+                ),
+            )
+            payload = response.parsed if isinstance(response.parsed, dict) else json.loads(response.text)
+            return VisionAnalysis.from_dict(payload, set(request.part_descriptors))
+        except (ValueError, TypeError, json.JSONDecodeError) as error:
+            raise VisionProviderError(f"Gemini returned an invalid structured response: {error}") from error
+        except Exception as error:
+            raise VisionProviderError(f"Gemini request failed: {error}") from error
+        finally:
+            client.close()
+
+    def _generate_json(self, contents: list[Any], schema: dict[str, Any]) -> dict[str, Any]:
+        try:
+            from google import genai
+            from google.genai import types
+        except ImportError as error:
+            raise VisionConfigurationError("install google-genai before running the live demo") from error
+        client = genai.Client(api_key=self.api_key)
+        try:
+            response = client.models.generate_content(
+                model=self.model,
+                contents=contents,
+                config=types.GenerateContentConfig(
+                    temperature=self.temperature,
+                    response_mime_type="application/json",
+                    response_json_schema=schema,
+                ),
+            )
+            return response.parsed if isinstance(response.parsed, dict) else json.loads(response.text)
+        except Exception as error:
+            raise VisionProviderError(f"Gemini request failed: {error}") from error
+        finally:
+            client.close()
+
+    def diagnose(self, request: GeminiRequest) -> StageAAnalysis:
+        from google.genai import types
+
+        contents: list[Any] = [request.prompt, "CURRENT_IMAGE",
+            types.Part.from_bytes(data=request.current_image.data, mime_type=request.current_image.mime_type),
+            "CORRECT_REFERENCE",
+            types.Part.from_bytes(data=request.reference_image.data, mime_type=request.reference_image.mime_type),
+            "CANDIDATE_PART_REFERENCE_IMAGES"]
+        for image in request.part_images:
+            contents.extend([image.neutral_id, types.Part.from_bytes(data=image.data, mime_type=image.mime_type)])
+        payload = self._generate_json(contents, STAGE_A_RESPONSE_SCHEMA)
+        return StageAAnalysis.from_dict(payload, set(request.part_descriptors))
+
+    def localize(self, request: GeminiRequest, target_descriptor: str) -> StageBLocalization:
+        from google.genai import types
+
+        target_images = [image for image in request.part_images if image.neutral_id.endswith(f"_{target_descriptor}")]
+        prompt = (
+            "Perform physical instance localization only; do not reconsider the diagnosed error type. "
+            f"The Stage A predicted target descriptor is {target_descriptor}. Find every plausible visible physical instance "
+            "of that descriptor in CURRENT_IMAGE and return each separately. Compare each candidate's attachment, neighboring "
+            "part identities, connected components, and geometric structural role against CORRECT_REFERENCE. Mark each "
+            "present_in_both, current_only, or uncertain. Select exactly one candidate only when its current_only structural "
+            "comparison is sufficiently supported; otherwise select null and return not_verified. Primary structural_relation "
+            "evidence must remain valid if the image is rotated 90 degrees; do not rely primarily on left/right/top/bottom or "
+            "corner directions. Coordinates use normalized_0_1000_xyxy on CURRENT_IMAGE."
+        )
+        contents: list[Any] = [prompt, "CURRENT_IMAGE",
+            types.Part.from_bytes(data=request.current_image.data, mime_type=request.current_image.mime_type),
+            "CORRECT_REFERENCE",
+            types.Part.from_bytes(data=request.reference_image.data, mime_type=request.reference_image.mime_type),
+            "TARGET_DESCRIPTOR_REFERENCE_IMAGES"]
+        for image in target_images:
+            contents.extend([image.neutral_id, types.Part.from_bytes(data=image.data, mime_type=image.mime_type)])
+        payload = self._generate_json(contents, STAGE_B_RESPONSE_SCHEMA)
+        return StageBLocalization.from_dict(payload, target_descriptor)
+
+    def compare_grounded_candidates(
+        self, request: GeminiRequest, target_descriptor: str, grounding: GroundingResult
+    ) -> GroundedLocalization:
+        """Compare fixed grounder crops; the model can return IDs but no coordinates."""
+        from google.genai import types
+        prompt = (
+            f"Stage A identified object class {target_descriptor}. Compare EVERY supplied GROUNDED_CANDIDATE crop "
+            "against CORRECT_REFERENCE. Classify every candidate as present_in_both, current_only, or uncertain. "
+            "Select only an exact supplied candidate_id; do not return, revise, or invent coordinates."
+        )
+        current = Image.open(BytesIO(request.current_image.data)).convert("RGB")
+        contents: list[Any] = [prompt, "CORRECT_REFERENCE",
+            types.Part.from_bytes(data=request.reference_image.data, mime_type=request.reference_image.mime_type)]
+        for candidate in grounding.candidates:
+            crop, buffer = current.crop(candidate.bbox), BytesIO()
+            crop.save(buffer, format="JPEG", quality=95)
+            contents.extend([f"GROUNDED_CANDIDATE_ID={candidate.candidate_id}",
+                types.Part.from_bytes(data=buffer.getvalue(), mime_type="image/jpeg")])
+        payload = self._generate_json(contents, GROUNDED_MATCHING_RESPONSE_SCHEMA)
+        return GroundedLocalization.from_dict(payload, target_descriptor, grounding)
