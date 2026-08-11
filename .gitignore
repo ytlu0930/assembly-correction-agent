@@ -22,3 +22,6 @@ raw_data/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Project source materials
+references/
