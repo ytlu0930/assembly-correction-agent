@@ -10,18 +10,11 @@ venv/
 .env.*
 !.env.example
 
-# Runtime outputs
-outputs/
+# Runtime logs
 logs/
-
-# Full raw dataset
-raw_data/
 
 # IDE / OS
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# Project source materials
-references/

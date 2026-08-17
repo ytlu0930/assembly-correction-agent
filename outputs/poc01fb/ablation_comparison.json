@@ -1,0 +1,25 @@
+{
+  "baseline": "POC-01F-A",
+  "variant": "POC-01F-B",
+  "changed_variables": [
+    "full_part_catalog_grounding",
+    "correspondence_first_reasoning_policy"
+  ],
+  "gate_a": {
+    "baseline": true,
+    "variant": true
+  },
+  "gate_b": {
+    "baseline": false,
+    "variant": true
+  },
+  "gate_c": {
+    "baseline": false,
+    "variant": true
+  },
+  "unsupported_hypothesis_count": {
+    "baseline": 1,
+    "variant": 0
+  },
+  "interpretation": null
+}

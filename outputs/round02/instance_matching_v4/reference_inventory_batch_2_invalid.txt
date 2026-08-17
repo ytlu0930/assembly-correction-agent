@@ -1,0 +1,71 @@
+{
+  "instances": [
+    {
+      "instance_id": "reference_link_red_1",
+      "descriptor": "LINK_RED_3HOLE",
+      "attachment_anchor": "center hole connects to reference_joint_yellow_1 (front) and reference_joint_yellow_2 (back)",
+      "neighboring_parts": [
+        "JOINT_YELLOW_H"
+      ],
+      "supporting_views": [
+        "front",
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "instance_id": "reference_joint_yellow_1",
+      "descriptor": "JOINT_YELLOW_H",
+      "attachment_anchor": "back end inserted into center hole of reference_link_red_1",
+      "neighboring_parts": [
+        "LINK_RED_3HOLE"
+      ],
+      "supporting_views": [
+        "front",
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "instance_id": "reference_joint_yellow_2",
+      "descriptor": "JOINT_YELLOW_H",
+      "attachment_anchor": "front end inserted into center hole of reference_link_red_1, back end inserted into hole 1 of reference_link_green_1",
+      "neighboring_parts": [
+        "LINK_RED_3HOLE",
+        "LINK_GREEN_5HOLE"
+      ],
+      "supporting_views": [
+        "bottom",
+        "left",
+        "right"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "instance_id": "reference_link_green_1",
+      "descriptor": "LINK_GREEN_5HOLE",
+      "attachment_anchor": "hole 1 connects to reference_joint_yellow_2, hole 3 connects to reference_pin_red_1 and reference_pin_red_2, hole 4 connects to reference_pin_red_3 and reference_pin_red_4",
+      "neighboring_parts": [
+        "JOINT_YELLOW_H",
+        "PIN_RED_SHORT"
+      ],
+      "supporting_views": [
+        "front",
+        "top",
+        "bottom",
+        "left",
+        "right",
+        "back"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "instance_id": "reference_link_blue_1",
+      "descriptor": "LINK_BLUE_5HOLE",
+      "attachment_anchor": "hole 4 connects to reference_pin

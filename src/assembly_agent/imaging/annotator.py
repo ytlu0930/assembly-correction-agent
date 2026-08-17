@@ -3,10 +3,11 @@
 from __future__ import annotations
 
 import hashlib
+import math
 from dataclasses import dataclass
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 
 @dataclass(frozen=True)
@@ -45,7 +46,10 @@ def annotate_remove(source_path: Path, output_path: Path, bbox: tuple[int, int, 
         raise ValueError("annotation output must not overwrite the original source")
     before = _sha256(source_path)
     with Image.open(source_path) as opened:
-        base = opened.convert("RGBA")
+        # Annotation coordinates refer to the displayed image plane. Apply EXIF
+        # orientation before drawing so portrait phone photos share the same
+        # coordinate system as localization candidates.
+        base = ImageOps.exif_transpose(opened).convert("RGBA")
     width, height = base.size
     pixel_bbox = normalized_bbox_to_pixels(bbox, width, height)
     overlay = Image.new("RGBA", base.size, (0, 0, 0, 0))
@@ -63,13 +67,32 @@ def annotate_remove(source_path: Path, output_path: Path, bbox: tuple[int, int, 
         radius=8, fill=(220, 20, 20, 230),
     )
     draw.text((label_x + 10, label_y + 8), label, fill="white", font=font, stroke_width=1)
-    arrow_start = (pixel_bbox[2], pixel_bbox[1])
-    arrow_end = (min(width - 1, pixel_bbox[2] + max(40, width // 12)), max(0, pixel_bbox[1] - max(40, height // 12)))
-    draw.line((arrow_start, arrow_end), fill=(220, 20, 20, 255), width=line_width)
-    draw.polygon(
-        (arrow_end, (arrow_end[0] - line_width * 3, arrow_end[1]), (arrow_end[0], arrow_end[1] + line_width * 3)),
-        fill=(220, 20, 20, 255),
+    # Point away from the assembly/image center so REMOVE communicates taking
+    # the selected part out of the model, rather than pushing it inward.
+    bbox_cx = (pixel_bbox[0] + pixel_bbox[2]) / 2
+    bbox_cy = (pixel_bbox[1] + pixel_bbox[3]) / 2
+    dx, dy = bbox_cx - width / 2, bbox_cy - height / 2
+    magnitude = math.hypot(dx, dy) or 1
+    ux, uy = dx / magnitude, dy / magnitude
+    half_w = (pixel_bbox[2] - pixel_bbox[0]) / 2
+    half_h = (pixel_bbox[3] - pixel_bbox[1]) / 2
+    edge_scale = min(
+        half_w / abs(ux) if abs(ux) > 1e-9 else float("inf"),
+        half_h / abs(uy) if abs(uy) > 1e-9 else float("inf"),
     )
+    arrow_start = (round(bbox_cx + ux * edge_scale), round(bbox_cy + uy * edge_scale))
+    arrow_length = max(80, round(min(width, height) * 0.12))
+    arrow_end = (
+        max(0, min(width - 1, round(arrow_start[0] + ux * arrow_length))),
+        max(0, min(height - 1, round(arrow_start[1] + uy * arrow_length))),
+    )
+    draw.line((arrow_start, arrow_end), fill=(220, 20, 20, 255), width=line_width)
+    perpendicular = (-uy, ux)
+    arrow_base = (arrow_end[0] - ux * line_width * 4, arrow_end[1] - uy * line_width * 4)
+    draw.polygon((arrow_end,
+        (round(arrow_base[0] + perpendicular[0] * line_width * 2), round(arrow_base[1] + perpendicular[1] * line_width * 2)),
+        (round(arrow_base[0] - perpendicular[0] * line_width * 2), round(arrow_base[1] - perpendicular[1] * line_width * 2))),
+        fill=(220, 20, 20, 255))
     bounds = overlay.getbbox()
     if bounds is None:
         raise RuntimeError("annotation overlay is empty")
@@ -79,4 +102,3 @@ def annotate_remove(source_path: Path, output_path: Path, bbox: tuple[int, int, 
     if before != after:
         raise RuntimeError("original source image changed during annotation")
     return AnnotationResult(output_path.as_posix(), before, after, width, height, pixel_bbox, bounds)
-

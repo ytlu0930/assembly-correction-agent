@@ -1,0 +1,172 @@
+{
+  "instances": [
+    {
+      "instance_id": "current_red_plate_front",
+      "descriptor": "LINK_RED_3HOLE",
+      "attachment_anchor": "front center hole to yellow pin",
+      "neighboring_parts": [
+        "PIN_YELLOW"
+      ],
+      "supporting_views": [
+        "front",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_yellow_pin_front",
+      "descriptor": "PIN_YELLOW",
+      "attachment_anchor": "connects red plate to orange connector",
+      "neighboring_parts": [
+        "LINK_RED_3HOLE",
+        "CONNECTOR_ORANGE"
+      ],
+      "supporting_views": [
+        "front",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_orange_connector_front",
+      "descriptor": "CONNECTOR_ORANGE",
+      "attachment_anchor": "connects yellow pin, red pin, and yellow cube",
+      "neighboring_parts": [
+        "PIN_YELLOW",
+        "PIN_RED_SHORT",
+        "BLOCK_YELLOW_CUBE"
+      ],
+      "supporting_views": [
+        "front",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_red_pin_front_top",
+      "descriptor": "PIN_RED_SHORT",
+      "attachment_anchor": "connects orange connector to blue Y joint",
+      "neighboring_parts": [
+        "CONNECTOR_ORANGE",
+        "JOINT_BLUE_Y"
+      ],
+      "supporting_views": [
+        "front",
+        "left",
+        "right",
+        "top"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_yellow_cube_front_bottom",
+      "descriptor": "BLOCK_YELLOW_CUBE",
+      "attachment_anchor": "connects orange connector to chassis links",
+      "neighboring_parts": [
+        "CONNECTOR_ORANGE",
+        "LINK_GREEN_5HOLE",
+        "LINK_BLUE_5HOLE"
+      ],
+      "supporting_views": [
+        "front",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_blue_y_joint_front",
+      "descriptor": "JOINT_BLUE_Y",
+      "attachment_anchor": "connects to red pin and holds two eyes",
+      "neighboring_parts": [
+        "PIN_RED_SHORT",
+        "EYE_BALL"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_eye_front_left",
+      "descriptor": "EYE_BALL",
+      "attachment_anchor": "left arm of blue Y joint",
+      "neighboring_parts": [
+        "JOINT_BLUE_Y"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "top"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_eye_front_right",
+      "descriptor": "EYE_BALL",
+      "attachment_anchor": "right arm of blue Y joint",
+      "neighboring_parts": [
+        "JOINT_BLUE_Y"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "right",
+        "top"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_chassis_link_left",
+      "descriptor": "LINK_GREEN_5HOLE",
+      "attachment_anchor": "connects yellow cube to rear axle",
+      "neighboring_parts": [
+        "BLOCK_YELLOW_CUBE",
+        "WHEEL_BLUE_LARGE",
+        "ROD_GREEN_LONG"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_chassis_link_right",
+      "descriptor": "LINK_BLUE_5HOLE",
+      "attachment_anchor": "connects yellow cube to rear axle",
+      "neighboring_parts": [
+        "BLOCK_YELLOW_CUBE",
+        "WHEEL_BLUE_LARGE",
+        "ROD_GREEN_LONG"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_wheel_front_left",

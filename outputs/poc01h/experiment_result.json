@@ -1,0 +1,148 @@
+{
+  "experiment": "POC-01H",
+  "hypothesis": {
+    "error_type": "extra_part",
+    "descriptor": "PIN_RED_SHORT",
+    "comparison_result": "current_only"
+  },
+  "verification": {
+    "hypothesis": {
+      "error_type": "extra_part",
+      "descriptor": "PIN_RED_SHORT",
+      "comparison_result": "current_only"
+    },
+    "view_results": [
+      {
+        "view": "front",
+        "selection": "candidate",
+        "candidate_id": "current_front_candidate_005",
+        "confidence": 0.99,
+        "evidence": "A short red pin is visible sticking up from the blue base, which is not present in the reference image."
+      },
+      {
+        "view": "back",
+        "selection": "candidate",
+        "candidate_id": "current_back_candidate_001",
+        "confidence": 0.99,
+        "evidence": "The extra short red pin is visible from the back, inserted into the blue base."
+      },
+      {
+        "view": "left",
+        "selection": "candidate",
+        "candidate_id": "current_left_candidate_001",
+        "confidence": 0.99,
+        "evidence": "The extra short red pin is clearly visible on the blue base."
+      },
+      {
+        "view": "right",
+        "selection": "candidate",
+        "candidate_id": "current_right_candidate_004",
+        "confidence": 0.99,
+        "evidence": "The extra short red pin is clearly visible on the blue base."
+      },
+      {
+        "view": "top",
+        "selection": "candidate",
+        "candidate_id": "current_top_candidate_006",
+        "confidence": 0.99,
+        "evidence": "The top of the extra short red pin is visible in the hole of the blue base."
+      },
+      {
+        "view": "bottom",
+        "selection": "candidate",
+        "candidate_id": "current_bottom_candidate_002",
+        "confidence": 0.99,
+        "evidence": "The bottom of the extra short red pin is visible through the hole in the blue base."
+      }
+    ],
+    "cross_view_assessment": {
+      "hypothesis_status": "supported",
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "conflicting_views": [],
+      "confidence": 0.99,
+      "reason": "All views consistently show an extra short red pin inserted into the blue base in the current assembly, which is absent in the reference assembly."
+    }
+  },
+  "evaluation": {
+    "per_view": [
+      {
+        "view": "front",
+        "selection": "candidate",
+        "candidate_id": "current_front_candidate_005",
+        "confidence": 0.99,
+        "evidence": "A short red pin is visible sticking up from the blue base, which is not present in the reference image.",
+        "human_evaluation_correctness": "unevaluated",
+        "bbox_evaluation_status": "unevaluated"
+      },
+      {
+        "view": "back",
+        "selection": "candidate",
+        "candidate_id": "current_back_candidate_001",
+        "confidence": 0.99,
+        "evidence": "The extra short red pin is visible from the back, inserted into the blue base.",
+        "human_evaluation_correctness": "unevaluated",
+        "bbox_evaluation_status": "unevaluated"
+      },
+      {
+        "view": "left",
+        "selection": "candidate",
+        "candidate_id": "current_left_candidate_001",
+        "confidence": 0.99,
+        "evidence": "The extra short red pin is clearly visible on the blue base.",
+        "human_evaluation_correctness": "unevaluated",
+        "bbox_evaluation_status": "unevaluated"
+      },
+      {
+        "view": "right",
+        "selection": "candidate",
+        "candidate_id": "current_right_candidate_004",
+        "confidence": 0.99,
+        "evidence": "The extra short red pin is clearly visible on the blue base.",
+        "human_evaluation_correctness": "unevaluated",
+        "bbox_evaluation_status": "unevaluated"
+      },
+      {
+        "view": "top",
+        "selection": "candidate",
+        "candidate_id": "current_top_candidate_006",
+        "confidence": 0.99,
+        "evidence": "The top of the extra short red pin is visible in the hole of the blue base.",
+        "human_evaluation_correctness": "unevaluated",
+        "bbox_evaluation_status": "unevaluated"
+      },
+      {
+        "view": "bottom",
+        "selection": "candidate",
+        "candidate_id": "current_bottom_candidate_002",
+        "confidence": 0.99,
+        "evidence": "The bottom of the extra short red pin is visible through the hole in the blue base.",
+        "human_evaluation_correctness": "unevaluated",
+        "bbox_evaluation_status": "unevaluated"
+      }
+    ],
+    "h1_candidate_selection_accuracy": "unevaluated",
+    "h2_multi_view_consistency": "unevaluated",
+    "h3_false_selection_control": "fail",
+    "h3_bottom_behavior": "candidate",
+    "h4_localization": {
+      "front": "unevaluated",
+      "back": "unevaluated",
+      "left": "unevaluated",
+      "right": "unevaluated",
+      "top": "unevaluated",
+      "bottom": "unevaluated"
+    },
+    "visible_view_candidate_accuracy": null,
+    "false_selection_count": 1,
+    "not_visible_handling": "candidate",
+    "invalid_candidate_id_count": 0,
+    "correct_candidate_bbox_count": 0
+  }
+}

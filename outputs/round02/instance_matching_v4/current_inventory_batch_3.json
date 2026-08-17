@@ -1,0 +1,142 @@
+{
+  "instances": [
+    {
+      "instance_id": "current_pin_yellow_1",
+      "descriptor": "PIN_YELLOW",
+      "attachment_anchor": "inserted into the front center hole of the red plate",
+      "neighboring_parts": [],
+      "supporting_views": [
+        "front",
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "instance_id": "current_pin_yellow_2",
+      "descriptor": "PIN_YELLOW",
+      "attachment_anchor": "inserted into the top center hole of the orange part",
+      "neighboring_parts": [],
+      "supporting_views": [
+        "front",
+        "back",
+        "top",
+        "left",
+        "right"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "instance_id": "current_plate_blue_triangle_1",
+      "descriptor": "PLATE_BLUE_TRIANGLE",
+      "attachment_anchor": "attached to the top of the orange part and the front of the angled green rod",
+      "neighboring_parts": [
+        "ROD_GREEN_LONG"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "top",
+        "left",
+        "right"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "instance_id": "current_rod_green_long_1",
+      "descriptor": "ROD_GREEN_LONG",
+      "attachment_anchor": "forms the right side of the chassis, connecting the front red plate, orange part, and rear axle",
+      "neighboring_parts": [
+        "WHEEL_BLUE_LARGE",
+        "WHEEL_BLUE_SMALL"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "top",
+        "bottom",
+        "right"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "instance_id": "current_rod_green_long_2",
+      "descriptor": "ROD_GREEN_LONG",
+      "attachment_anchor": "attached to the back of the blue triangular plate, extending upwards and backwards",
+      "neighboring_parts": [
+        "PLATE_BLUE_TRIANGLE"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "instance_id": "current_wheel_blue_large_1",
+      "descriptor": "WHEEL_BLUE_LARGE",
+      "attachment_anchor": "mounted on the front left axle",
+      "neighboring_parts": [],
+      "supporting_views": [
+        "front",
+        "back",
+        "top",
+        "bottom",
+        "left"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "instance_id": "current_wheel_blue_large_2",
+      "descriptor": "WHEEL_BLUE_LARGE",
+      "attachment_anchor": "mounted on the front right axle",
+      "neighboring_parts": [
+        "ROD_GREEN_LONG"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "top",
+        "bottom",
+        "right"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "instance_id": "current_wheel_blue_small_1",
+      "descriptor": "WHEEL_BLUE_SMALL",
+      "attachment_anchor": "mounted on the rear left axle",
+      "neighboring_parts": [],
+      "supporting_views": [
+        "front",
+        "back",
+        "top",
+        "bottom",
+        "left"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "instance_id": "current_wheel_blue_small_2",
+      "descriptor": "WHEEL_BLUE_SMALL",
+      "attachment_anchor": "mounted on the rear right axle",
+      "neighboring_parts": [
+        "ROD_GREEN_LONG"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "top",
+        "bottom",
+        "right"
+      ],
+      "confidence": 0.95
+    }
+  ]
+}

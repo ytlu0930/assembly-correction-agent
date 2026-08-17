@@ -1,0 +1,22 @@
+{
+  "round": "round02",
+  "variant": "inventory_v3",
+  "overall_result": "fail",
+  "improvements_over_v2": [
+    "recovered both human-confirmed extra eye instances",
+    "eliminated the unsupported blue/green chassis-link swap claims"
+  ],
+  "correct_claims": ["extra_eye_left", "extra_eye_right"],
+  "missed_claims": ["missing_eye_center"],
+  "unsupported_model_claims": [
+    "extra yellow pin on the front red link",
+    "red short pin attachment mismatch",
+    "green long rod orientation mismatch"
+  ],
+  "part_instance_recall": 0.6667,
+  "unsupported_claim_count": 3,
+  "ground_truth_eye_counts": {"current": 5, "reference": 4, "net_difference": 1},
+  "model_inventory_eye_counts": {"current": 5, "reference": 3, "reference_count_correct": false},
+  "diagnosis": "the model undercounted Reference eyes, and part-type net counts cannot recover simultaneous extra and missing instances of the same type; instance-level anchor matching is required",
+  "localization_status": "not_run_because_diagnosis_not_fully_supported"
+}

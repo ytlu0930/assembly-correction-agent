@@ -1,0 +1,17 @@
+{
+  "query": "pin red short. pin red short.",
+  "threshold": 0.18,
+  "image_size": [6928, 6928],
+  "candidates": [
+    {"candidate_id": "grounded_001", "bbox": [5151, 1768, 6121, 4928], "score": 0.3876851797103882, "source": "grounding_dino:IDEA-Research/grounding-dino-tiny"},
+    {"candidate_id": "grounded_002", "bbox": [5158, 1772, 6061, 4924], "score": 0.2972438633441925, "source": "grounding_dino:IDEA-Research/grounding-dino-tiny"},
+    {"candidate_id": "grounded_003", "bbox": [1001, 2837, 1310, 4021], "score": 0.26413971185684204, "source": "grounding_dino:IDEA-Research/grounding-dino-tiny"},
+    {"candidate_id": "grounded_004", "bbox": [5156, 1767, 6070, 4929], "score": 0.24952834844589233, "source": "grounding_dino:IDEA-Research/grounding-dino-tiny"},
+    {"candidate_id": "grounded_005", "bbox": [1005, 2836, 1307, 4021], "score": 0.2349577397108078, "source": "grounding_dino:IDEA-Research/grounding-dino-tiny"},
+    {"candidate_id": "grounded_006", "bbox": [3904, 2681, 4917, 4057], "score": 0.22889859974384308, "source": "grounding_dino:IDEA-Research/grounding-dino-tiny"},
+    {"candidate_id": "grounded_007", "bbox": [453, 1599, 6216, 5090], "score": 0.22606869041919708, "source": "grounding_dino:IDEA-Research/grounding-dino-tiny"}
+  ],
+  "source": "grounding_dino:IDEA-Research/grounding-dino-tiny",
+  "run_scope": "grounder_only_after_full_demo_configuration_block",
+  "matching_status": "not_run_missing_gemini_api_key"
+}

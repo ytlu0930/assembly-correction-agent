@@ -1,6 +1,7 @@
 import hashlib
 from pathlib import Path
 
+import numpy as np
 from PIL import Image
 
 from assembly_agent.imaging import annotate_remove, normalized_bbox_to_pixels
@@ -36,3 +37,28 @@ def test_annotation_refuses_source_overwrite(tmp_path: Path) -> None:
         assert "must not overwrite" in str(error)
     else:
         raise AssertionError("source overwrite was not rejected")
+
+
+def test_annotation_uses_exif_display_orientation(tmp_path: Path) -> None:
+    source = tmp_path / "oriented.jpg"
+    output = tmp_path / "annotated.png"
+    stored = Image.fromarray(np.full((40, 80, 3), 255, dtype=np.uint8))
+    exif = stored.getexif()
+    exif[274] = 6
+    stored.save(source, exif=exif)
+
+    result = annotate_remove(source, output, (500, 100, 900, 400))
+
+    assert (result.image_width, result.image_height) == (40, 80)
+    assert Image.open(output).size == (40, 80)
+
+
+def test_remove_arrow_extends_away_from_image_center(tmp_path: Path) -> None:
+    source = tmp_path / "source.png"
+    output = tmp_path / "annotated.png"
+    Image.new("RGB", (1000, 1000), "white").save(source)
+
+    result = annotate_remove(source, output, (100, 400, 200, 600))
+
+    # A target left of center must produce overlay pixels left of its box.
+    assert result.overlay_bounds[0] < result.pixel_bbox[0]

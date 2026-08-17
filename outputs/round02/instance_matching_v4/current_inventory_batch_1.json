@@ -1,0 +1,178 @@
+{
+  "instances": [
+    {
+      "instance_id": "current_yellow_cube",
+      "descriptor": "BLOCK_YELLOW_CUBE",
+      "attachment_anchor": "center of chassis, connected to orange connector at front, blue Y-joint on top, and green chassis block on right",
+      "neighboring_parts": [
+        "CONNECTOR_ORANGE",
+        "JOINT_BLUE_Y",
+        "BLOCK_GREEN_4HOLE_2PEG"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_orange_connector",
+      "descriptor": "CONNECTOR_ORANGE",
+      "attachment_anchor": "front of yellow cube",
+      "neighboring_parts": [
+        "BLOCK_YELLOW_CUBE"
+      ],
+      "supporting_views": [
+        "front",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_blue_y_joint",
+      "descriptor": "JOINT_BLUE_Y",
+      "attachment_anchor": "top of yellow cube, holding two front eyes and connecting to green tail",
+      "neighboring_parts": [
+        "BLOCK_YELLOW_CUBE",
+        "EYE_BALL",
+        "BLOCK_GREEN_4HOLE_2PEG"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_green_tail",
+      "descriptor": "BLOCK_GREEN_4HOLE_2PEG",
+      "attachment_anchor": "inserted into back of blue Y-joint, extending upwards and backwards",
+      "neighboring_parts": [
+        "JOINT_BLUE_Y",
+        "EYE_BALL"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_green_chassis",
+      "descriptor": "BLOCK_GREEN_4HOLE_2PEG",
+      "attachment_anchor": "right side of chassis, connected to yellow cube",
+      "neighboring_parts": [
+        "BLOCK_YELLOW_CUBE"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_eye_y_left",
+      "descriptor": "EYE_BALL",
+      "attachment_anchor": "left branch of blue Y-joint",
+      "neighboring_parts": [
+        "JOINT_BLUE_Y"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_eye_y_right",
+      "descriptor": "EYE_BALL",
+      "attachment_anchor": "right branch of blue Y-joint",
+      "neighboring_parts": [
+        "JOINT_BLUE_Y"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_eye_tail_top",
+      "descriptor": "EYE_BALL",
+      "attachment_anchor": "top peg of green tail",
+      "neighboring_parts": [
+        "BLOCK_GREEN_4HOLE_2PEG"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_eye_tail_left",
+      "descriptor": "EYE_BALL",
+      "attachment_anchor": "left side of green tail",
+      "neighboring_parts": [
+        "BLOCK_GREEN_4HOLE_2PEG"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_eye_tail_right",
+      "descriptor": "EYE_BALL",
+      "attachment_anchor": "right side of green tail",
+      "neighboring_parts": [
+        "BLOCK_GREEN_4HOLE_2PEG"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

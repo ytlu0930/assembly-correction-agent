@@ -1,0 +1,49 @@
+{
+  "experiment": "POC-01F",
+  "prediction": {
+    "status": "error",
+    "error_type": "composite_error",
+    "suspected_parts": [
+      {
+        "descriptor": "red peg",
+        "description": "The red peg is misplaced from the blue long piece to the blue eye piece.",
+        "confidence": 0.99
+      },
+      {
+        "descriptor": "orange flared piece",
+        "description": "The orange flared piece is missing from the green long piece.",
+        "confidence": 0.99
+      }
+    ],
+    "structural_difference": "A red peg is incorrectly placed in the right hole of the blue eye piece instead of its correct position on the blue long piece. Additionally, the orange flared piece is missing entirely from the green long piece.",
+    "supporting_views": [
+      "front",
+      "back",
+      "left",
+      "right",
+      "top"
+    ],
+    "conflicting_views": [
+      "bottom"
+    ],
+    "confidence": 0.99
+  },
+  "evaluation": {
+    "gate_a_error_detection": true,
+    "gate_b_error_classification": false,
+    "gate_c_part_identification": false,
+    "gate_c_raw_description": [
+      {
+        "descriptor": "red peg",
+        "description": "The red peg is misplaced from the blue long piece to the blue eye piece."
+      },
+      {
+        "descriptor": "orange flared piece",
+        "description": "The orange flared piece is missing from the green long piece."
+      }
+    ],
+    "gate_c_normalized_target": null,
+    "gate_d_structural_localization": "unevaluated",
+    "gate_e_view_evidence": "unevaluated"
+  }
+}

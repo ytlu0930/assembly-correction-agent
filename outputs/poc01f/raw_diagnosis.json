@@ -1,0 +1,28 @@
+{
+  "status": "error",
+  "error_type": "composite_error",
+  "suspected_parts": [
+    {
+      "descriptor": "red peg",
+      "description": "The red peg is misplaced from the blue long piece to the blue eye piece.",
+      "confidence": 0.99
+    },
+    {
+      "descriptor": "orange flared piece",
+      "description": "The orange flared piece is missing from the green long piece.",
+      "confidence": 0.99
+    }
+  ],
+  "structural_difference": "A red peg is incorrectly placed in the right hole of the blue eye piece instead of its correct position on the blue long piece. Additionally, the orange flared piece is missing entirely from the green long piece.",
+  "supporting_views": [
+    "front",
+    "back",
+    "left",
+    "right",
+    "top"
+  ],
+  "conflicting_views": [
+    "bottom"
+  ],
+  "confidence": 0.99
+}

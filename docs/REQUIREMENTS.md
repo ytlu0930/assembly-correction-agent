@@ -1,3 +1,5 @@
+Purpose: 定義 Assembly Correction Agent 的產品目標、範圍、資料條件與驗收要求。
+
 # Multimodal Assembly Correction Agent
 
 ## Greenfield Project Requirements & Codex Collaboration Specification --- V2

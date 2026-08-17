@@ -1,0 +1,78 @@
+{
+  "experiment": "ROUND-02-BLIND-DIAGNOSIS",
+  "prediction": {
+    "status": "error",
+    "error_type": "composite_error",
+    "suspected_parts": [
+      {
+        "descriptor": "EYE_BALL",
+        "description": "Extra eye ball attached to the left side of the horizontal red pin on the tail.",
+        "comparison_result": "current_only",
+        "supporting_views": [
+          "top",
+          "back",
+          "left"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "descriptor": "EYE_BALL",
+        "description": "Extra eye ball attached to the right side of the horizontal red pin on the tail.",
+        "comparison_result": "current_only",
+        "supporting_views": [
+          "top",
+          "back",
+          "right"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "descriptor": "PIN_YELLOW",
+        "description": "Extra yellow pin inserted into the center hole of the front red bumper.",
+        "comparison_result": "current_only",
+        "supporting_views": [
+          "front",
+          "top",
+          "bottom"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "descriptor": "LINK_GREEN_5HOLE",
+        "description": "Green link used for the left side of the chassis where a blue link is expected.",
+        "comparison_result": "identity_mismatch",
+        "supporting_views": [
+          "front",
+          "top",
+          "bottom",
+          "left"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "descriptor": "LINK_BLUE_5HOLE",
+        "description": "Blue link used for the right side of the chassis where a green link is expected.",
+        "comparison_result": "identity_mismatch",
+        "supporting_views": [
+          "front",
+          "top",
+          "bottom",
+          "right"
+        ],
+        "confidence": 0.99
+      }
+    ],
+    "structural_difference": "The current assembly has two extra eye balls on the tail's horizontal red pin and an extra yellow pin in the center of the front red bumper. Additionally, the blue and green 5-hole links forming the chassis are swapped left-to-right compared to the reference.",
+    "supporting_views": [
+      "front",
+      "back",
+      "left",
+      "right",
+      "top",
+      "bottom"
+    ],
+    "conflicting_views": [],
+    "confidence": 0.99
+  },
+  "evaluation_status": "pending_human_gt_comparison"
+}

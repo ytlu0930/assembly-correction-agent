@@ -1,0 +1,24 @@
+{
+  "status": "error",
+  "error_type": "extra_part",
+  "actual_part": {
+    "descriptor": "PIN_RED_SHORT",
+    "description": "Red short pin"
+  },
+  "location": {
+    "coordinate_space": "normalized_0_1000_xyxy",
+    "region": "left hole of the blue triangle plate",
+    "bbox": [
+      355,
+      335,
+      420,
+      505
+    ],
+    "point": [
+      387,
+      420
+    ]
+  },
+  "confidence": 0.99,
+  "evidence_summary": "An extra red short pin is inserted into the left hole of the blue triangle plate, which is not present in the reference image."
+}

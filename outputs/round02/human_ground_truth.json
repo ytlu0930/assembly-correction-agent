@@ -1,0 +1,44 @@
+{
+  "round": "round02",
+  "model_id": "model03",
+  "step_id": "step03",
+  "case_id": "A01",
+  "dataset_label": "wrong_part",
+  "human_error_type": "composite_error",
+  "eye_ball_instance_summary": {
+    "current_count": 5,
+    "reference_count": 4,
+    "matched_count": 3,
+    "current_only_count": 2,
+    "reference_only_count": 1,
+    "net_count_difference": 1
+  },
+  "differences": [
+    {
+      "instance_id": "extra_eye_left",
+      "error_type": "extra_part",
+      "part_descriptor": "EYE_BALL",
+      "relation": "one of two eyeballs attached at the two ends of the rear red rod",
+      "count": 1
+    },
+    {
+      "instance_id": "extra_eye_right",
+      "error_type": "extra_part",
+      "part_descriptor": "EYE_BALL",
+      "relation": "one of two eyeballs attached at the two ends of the rear red rod",
+      "count": 1
+    },
+    {
+      "instance_id": "missing_eye_center",
+      "error_type": "missing_part",
+      "part_descriptor": "EYE_BALL",
+      "relation": "missing from the red pin at the center of the blue triangular plate",
+      "count": 1
+    }
+  ],
+  "annotation_evidence": [
+    "references/IMG_3168.jpg",
+    "references/IMG_3169.jpg"
+  ],
+  "exposed_to_blind_model": false
+}

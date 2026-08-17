@@ -1,0 +1,27 @@
+{
+  "status": "error",
+  "error_type": "extra_part",
+  "suspected_parts": [
+    {
+      "descriptor": "PIN_RED_SHORT",
+      "description": "A red short pin inserted into the left hole of the blue Y-joint.",
+      "comparison_result": "current_only",
+      "supporting_views": [
+        "front",
+        "left",
+        "right",
+        "top"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "structural_difference": "The current assembly has an extra red short pin inserted into the left hole of the blue Y-joint, which is not present in the reference assembly.",
+  "supporting_views": [
+    "front",
+    "left",
+    "right",
+    "top"
+  ],
+  "conflicting_views": [],
+  "confidence": 0.99
+}

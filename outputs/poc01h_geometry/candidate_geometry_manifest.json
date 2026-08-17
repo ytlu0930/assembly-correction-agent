@@ -1,0 +1,1884 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "current_front_candidate_001",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3626,
+        1028,
+        4059,
+        1276
+      ],
+      "context_crop_original_xyxy": [
+        2760,
+        532,
+        4925,
+        1772
+      ],
+      "bbox_context_local_xyxy": [
+        866,
+        496,
+        1299,
+        744
+      ],
+      "context_render_size": [
+        2165,
+        1240
+      ],
+      "bbox_rendered_xyxy": [
+        866,
+        496,
+        1299,
+        744
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_front_candidate_001_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_002",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2916,
+        1045,
+        3343,
+        1299
+      ],
+      "context_crop_original_xyxy": [
+        2062,
+        537,
+        4197,
+        1807
+      ],
+      "bbox_context_local_xyxy": [
+        854,
+        508,
+        1281,
+        762
+      ],
+      "context_render_size": [
+        2135,
+        1270
+      ],
+      "bbox_rendered_xyxy": [
+        854,
+        508,
+        1281,
+        762
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_front_candidate_002_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_003",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3643,
+        1513,
+        4030,
+        1755
+      ],
+      "context_crop_original_xyxy": [
+        2869,
+        1029,
+        4804,
+        2239
+      ],
+      "bbox_context_local_xyxy": [
+        774,
+        484,
+        1161,
+        726
+      ],
+      "context_render_size": [
+        1935,
+        1210
+      ],
+      "bbox_rendered_xyxy": [
+        774,
+        484,
+        1161,
+        726
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_front_candidate_003_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_004",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2933,
+        1524,
+        3354,
+        1761
+      ],
+      "context_crop_original_xyxy": [
+        2091,
+        1050,
+        4196,
+        2235
+      ],
+      "bbox_context_local_xyxy": [
+        842,
+        474,
+        1263,
+        711
+      ],
+      "context_render_size": [
+        2105,
+        1185
+      ],
+      "bbox_rendered_xyxy": [
+        842,
+        474,
+        1263,
+        711
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_front_candidate_004_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_005",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2471,
+        2338,
+        2921,
+        3499
+      ],
+      "context_crop_original_xyxy": [
+        1571,
+        16,
+        3821,
+        5821
+      ],
+      "bbox_context_local_xyxy": [
+        900,
+        2322,
+        1350,
+        3483
+      ],
+      "context_render_size": [
+        2250,
+        5805
+      ],
+      "bbox_rendered_xyxy": [
+        900,
+        2322,
+        1350,
+        3483
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_front_candidate_005_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_006",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2887,
+        3949,
+        4215,
+        4884
+      ],
+      "context_crop_original_xyxy": [
+        231,
+        2079,
+        6871,
+        6754
+      ],
+      "bbox_context_local_xyxy": [
+        2656,
+        1870,
+        3984,
+        2805
+      ],
+      "context_render_size": [
+        6640,
+        4675
+      ],
+      "bbox_rendered_xyxy": [
+        2656,
+        1870,
+        3984,
+        2805
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_front_candidate_006_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_007",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2015,
+        5127,
+        5132,
+        6195
+      ],
+      "context_crop_original_xyxy": [
+        0,
+        2991,
+        6928,
+        6928
+      ],
+      "bbox_context_local_xyxy": [
+        2015,
+        2136,
+        5132,
+        3204
+      ],
+      "context_render_size": [
+        6928,
+        3937
+      ],
+      "bbox_rendered_xyxy": [
+        2015,
+        2136,
+        5132,
+        3204
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_front_candidate_007_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_008",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2425,
+        6149,
+        2875,
+        6212
+      ],
+      "context_crop_original_xyxy": [
+        1525,
+        6023,
+        3775,
+        6338
+      ],
+      "bbox_context_local_xyxy": [
+        900,
+        126,
+        1350,
+        189
+      ],
+      "context_render_size": [
+        2250,
+        315
+      ],
+      "bbox_rendered_xyxy": [
+        900,
+        126,
+        1350,
+        189
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_front_candidate_008_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_009",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2610,
+        6258,
+        2840,
+        6299
+      ],
+      "context_crop_original_xyxy": [
+        2150,
+        6176,
+        3300,
+        6381
+      ],
+      "bbox_context_local_xyxy": [
+        460,
+        82,
+        690,
+        123
+      ],
+      "context_render_size": [
+        1150,
+        205
+      ],
+      "bbox_rendered_xyxy": [
+        460,
+        82,
+        690,
+        123
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_front_candidate_009_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_010",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2431,
+        6264,
+        2517,
+        6293
+      ],
+      "context_crop_original_xyxy": [
+        2259,
+        6206,
+        2689,
+        6351
+      ],
+      "bbox_context_local_xyxy": [
+        172,
+        58,
+        258,
+        87
+      ],
+      "context_render_size": [
+        430,
+        145
+      ],
+      "bbox_rendered_xyxy": [
+        172,
+        58,
+        258,
+        87
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_front_candidate_010_context.jpg"
+    },
+    {
+      "candidate_id": "current_back_candidate_001",
+      "view": "back",
+      "source_record_id": "record_bef0ea3b617989e7842e",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3793,
+        1524,
+        4370,
+        2159
+      ],
+      "context_crop_original_xyxy": [
+        2639,
+        254,
+        5524,
+        3429
+      ],
+      "bbox_context_local_xyxy": [
+        1154,
+        1270,
+        1731,
+        1905
+      ],
+      "context_render_size": [
+        2885,
+        3175
+      ],
+      "bbox_rendered_xyxy": [
+        1154,
+        1270,
+        1731,
+        1905
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_back_candidate_001_context.jpg"
+    },
+    {
+      "candidate_id": "current_back_candidate_002",
+      "view": "back",
+      "source_record_id": "record_bef0ea3b617989e7842e",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2431,
+        1680,
+        2967,
+        1894
+      ],
+      "context_crop_original_xyxy": [
+        1359,
+        1252,
+        4039,
+        2322
+      ],
+      "bbox_context_local_xyxy": [
+        1072,
+        428,
+        1608,
+        642
+      ],
+      "context_render_size": [
+        2680,
+        1070
+      ],
+      "bbox_rendered_xyxy": [
+        1072,
+        428,
+        1608,
+        642
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_back_candidate_002_context.jpg"
+    },
+    {
+      "candidate_id": "current_back_candidate_003",
+      "view": "back",
+      "source_record_id": "record_bef0ea3b617989e7842e",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3008,
+        3089,
+        3816,
+        3435
+      ],
+      "context_crop_original_xyxy": [
+        1392,
+        2397,
+        5432,
+        4127
+      ],
+      "bbox_context_local_xyxy": [
+        1616,
+        692,
+        2424,
+        1038
+      ],
+      "context_render_size": [
+        4040,
+        1730
+      ],
+      "bbox_rendered_xyxy": [
+        1616,
+        692,
+        2424,
+        1038
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_back_candidate_003_context.jpg"
+    },
+    {
+      "candidate_id": "current_back_candidate_004",
+      "view": "back",
+      "source_record_id": "record_bef0ea3b617989e7842e",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3747,
+        4047,
+        4873,
+        5023
+      ],
+      "context_crop_original_xyxy": [
+        1495,
+        2095,
+        6928,
+        6928
+      ],
+      "bbox_context_local_xyxy": [
+        2252,
+        1952,
+        3378,
+        2928
+      ],
+      "context_render_size": [
+        5433,
+        4833
+      ],
+      "bbox_rendered_xyxy": [
+        2252,
+        1952,
+        3378,
+        2928
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_back_candidate_004_context.jpg"
+    },
+    {
+      "candidate_id": "current_back_candidate_005",
+      "view": "back",
+      "source_record_id": "record_bef0ea3b617989e7842e",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        1951,
+        4059,
+        3089,
+        5098
+      ],
+      "context_crop_original_xyxy": [
+        0,
+        1981,
+        5365,
+        6928
+      ],
+      "bbox_context_local_xyxy": [
+        1951,
+        2078,
+        3089,
+        3117
+      ],
+      "context_render_size": [
+        5365,
+        4947
+      ],
+      "bbox_rendered_xyxy": [
+        1951,
+        2078,
+        3089,
+        3117
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_back_candidate_005_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_001",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2413,
+        2153,
+        2742,
+        2760
+      ],
+      "context_crop_original_xyxy": [
+        1755,
+        939,
+        3400,
+        3974
+      ],
+      "bbox_context_local_xyxy": [
+        658,
+        1214,
+        987,
+        1821
+      ],
+      "context_render_size": [
+        1645,
+        3035
+      ],
+      "bbox_rendered_xyxy": [
+        658,
+        1214,
+        987,
+        1821
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_left_candidate_001_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_002",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        5606,
+        2234,
+        6102,
+        2737
+      ],
+      "context_crop_original_xyxy": [
+        4614,
+        1228,
+        6928,
+        3743
+      ],
+      "bbox_context_local_xyxy": [
+        992,
+        1006,
+        1488,
+        1509
+      ],
+      "context_render_size": [
+        2314,
+        2515
+      ],
+      "bbox_rendered_xyxy": [
+        992,
+        1006,
+        1488,
+        1509
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_left_candidate_002_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_003",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        5098,
+        2794,
+        5519,
+        3308
+      ],
+      "context_crop_original_xyxy": [
+        4256,
+        1766,
+        6361,
+        4336
+      ],
+      "bbox_context_local_xyxy": [
+        842,
+        1028,
+        1263,
+        1542
+      ],
+      "context_render_size": [
+        2105,
+        2570
+      ],
+      "bbox_rendered_xyxy": [
+        842,
+        1028,
+        1263,
+        1542
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_left_candidate_003_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_004",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        543,
+        3245,
+        2136,
+        4982
+      ],
+      "context_crop_original_xyxy": [
+        0,
+        0,
+        5322,
+        6928
+      ],
+      "bbox_context_local_xyxy": [
+        543,
+        3245,
+        2136,
+        4982
+      ],
+      "context_render_size": [
+        5322,
+        6928
+      ],
+      "bbox_rendered_xyxy": [
+        543,
+        3245,
+        2136,
+        4982
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_left_candidate_004_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_005",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3562,
+        3568,
+        3799,
+        3764
+      ],
+      "context_crop_original_xyxy": [
+        3088,
+        3176,
+        4273,
+        4156
+      ],
+      "bbox_context_local_xyxy": [
+        474,
+        392,
+        711,
+        588
+      ],
+      "context_render_size": [
+        1185,
+        980
+      ],
+      "bbox_rendered_xyxy": [
+        474,
+        392,
+        711,
+        588
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_left_candidate_005_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_006",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3562,
+        4088,
+        3828,
+        4313
+      ],
+      "context_crop_original_xyxy": [
+        3030,
+        3638,
+        4360,
+        4763
+      ],
+      "bbox_context_local_xyxy": [
+        532,
+        450,
+        798,
+        675
+      ],
+      "context_render_size": [
+        1330,
+        1125
+      ],
+      "bbox_rendered_xyxy": [
+        532,
+        450,
+        798,
+        675
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_left_candidate_006_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_007",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        1305,
+        4699,
+        1617,
+        4919
+      ],
+      "context_crop_original_xyxy": [
+        681,
+        4259,
+        2241,
+        5359
+      ],
+      "bbox_context_local_xyxy": [
+        624,
+        440,
+        936,
+        660
+      ],
+      "context_render_size": [
+        1560,
+        1100
+      ],
+      "bbox_rendered_xyxy": [
+        624,
+        440,
+        936,
+        660
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_left_candidate_007_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_001",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        1322,
+        2523,
+        1513,
+        2702
+      ],
+      "context_crop_original_xyxy": [
+        940,
+        2165,
+        1895,
+        3060
+      ],
+      "bbox_context_local_xyxy": [
+        382,
+        358,
+        573,
+        537
+      ],
+      "context_render_size": [
+        955,
+        895
+      ],
+      "bbox_rendered_xyxy": [
+        382,
+        358,
+        573,
+        537
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_right_candidate_001_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_002",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        883,
+        2881,
+        1322,
+        3395
+      ],
+      "context_crop_original_xyxy": [
+        5,
+        1853,
+        2200,
+        4423
+      ],
+      "bbox_context_local_xyxy": [
+        878,
+        1028,
+        1317,
+        1542
+      ],
+      "context_render_size": [
+        2195,
+        2570
+      ],
+      "bbox_rendered_xyxy": [
+        878,
+        1028,
+        1317,
+        1542
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_right_candidate_002_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_003",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        1801,
+        2967,
+        1969,
+        3118
+      ],
+      "context_crop_original_xyxy": [
+        1465,
+        2665,
+        2305,
+        3420
+      ],
+      "bbox_context_local_xyxy": [
+        336,
+        302,
+        504,
+        453
+      ],
+      "context_render_size": [
+        840,
+        755
+      ],
+      "bbox_rendered_xyxy": [
+        336,
+        302,
+        504,
+        453
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_right_candidate_003_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_004",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        4007,
+        3210,
+        4359,
+        4243
+      ],
+      "context_crop_original_xyxy": [
+        3303,
+        1144,
+        5063,
+        6309
+      ],
+      "bbox_context_local_xyxy": [
+        704,
+        2066,
+        1056,
+        3099
+      ],
+      "context_render_size": [
+        1760,
+        5165
+      ],
+      "bbox_rendered_xyxy": [
+        704,
+        2066,
+        1056,
+        3099
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_right_candidate_004_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_005",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        1426,
+        3331,
+        1824,
+        3839
+      ],
+      "context_crop_original_xyxy": [
+        630,
+        2315,
+        2620,
+        4855
+      ],
+      "bbox_context_local_xyxy": [
+        796,
+        1016,
+        1194,
+        1524
+      ],
+      "context_render_size": [
+        1990,
+        2540
+      ],
+      "bbox_rendered_xyxy": [
+        796,
+        1016,
+        1194,
+        1524
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_right_candidate_005_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_006",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        4688,
+        3556,
+        6143,
+        5213
+      ],
+      "context_crop_original_xyxy": [
+        1778,
+        242,
+        6928,
+        6928
+      ],
+      "bbox_context_local_xyxy": [
+        2910,
+        3314,
+        4365,
+        4971
+      ],
+      "context_render_size": [
+        5150,
+        6686
+      ],
+      "bbox_rendered_xyxy": [
+        2910,
+        3314,
+        4365,
+        4971
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_right_candidate_006_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_007",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3089,
+        3903,
+        3320,
+        4157
+      ],
+      "context_crop_original_xyxy": [
+        2627,
+        3395,
+        3782,
+        4665
+      ],
+      "bbox_context_local_xyxy": [
+        462,
+        508,
+        693,
+        762
+      ],
+      "context_render_size": [
+        1155,
+        1270
+      ],
+      "bbox_rendered_xyxy": [
+        462,
+        508,
+        693,
+        762
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_right_candidate_007_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_008",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3043,
+        4474,
+        3285,
+        4671
+      ],
+      "context_crop_original_xyxy": [
+        2559,
+        4080,
+        3769,
+        5065
+      ],
+      "bbox_context_local_xyxy": [
+        484,
+        394,
+        726,
+        591
+      ],
+      "context_render_size": [
+        1210,
+        985
+      ],
+      "bbox_rendered_xyxy": [
+        484,
+        394,
+        726,
+        591
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_right_candidate_008_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_009",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        5052,
+        5063,
+        5346,
+        5254
+      ],
+      "context_crop_original_xyxy": [
+        4464,
+        4681,
+        5934,
+        5636
+      ],
+      "bbox_context_local_xyxy": [
+        588,
+        382,
+        882,
+        573
+      ],
+      "context_render_size": [
+        1470,
+        955
+      ],
+      "bbox_rendered_xyxy": [
+        588,
+        382,
+        882,
+        573
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_right_candidate_009_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_001",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3481,
+        1045,
+        3937,
+        1293
+      ],
+      "context_crop_original_xyxy": [
+        2569,
+        549,
+        4849,
+        1789
+      ],
+      "bbox_context_local_xyxy": [
+        912,
+        496,
+        1368,
+        744
+      ],
+      "context_render_size": [
+        2280,
+        1240
+      ],
+      "bbox_rendered_xyxy": [
+        912,
+        496,
+        1368,
+        744
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_top_candidate_001_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_002",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2737,
+        1051,
+        3181,
+        1299
+      ],
+      "context_crop_original_xyxy": [
+        1849,
+        555,
+        4069,
+        1795
+      ],
+      "bbox_context_local_xyxy": [
+        888,
+        496,
+        1332,
+        744
+      ],
+      "context_render_size": [
+        2220,
+        1240
+      ],
+      "bbox_rendered_xyxy": [
+        888,
+        496,
+        1332,
+        744
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_top_candidate_002_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_003",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2748,
+        1668,
+        3187,
+        1905
+      ],
+      "context_crop_original_xyxy": [
+        1870,
+        1194,
+        4065,
+        2379
+      ],
+      "bbox_context_local_xyxy": [
+        878,
+        474,
+        1317,
+        711
+      ],
+      "context_render_size": [
+        2195,
+        1185
+      ],
+      "bbox_rendered_xyxy": [
+        878,
+        474,
+        1317,
+        711
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_top_candidate_003_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_004",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3481,
+        1674,
+        3920,
+        1911
+      ],
+      "context_crop_original_xyxy": [
+        2603,
+        1200,
+        4798,
+        2385
+      ],
+      "bbox_context_local_xyxy": [
+        878,
+        474,
+        1317,
+        711
+      ],
+      "context_render_size": [
+        2195,
+        1185
+      ],
+      "bbox_rendered_xyxy": [
+        878,
+        474,
+        1317,
+        711
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_top_candidate_004_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_005",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3048,
+        3349,
+        3597,
+        3493
+      ],
+      "context_crop_original_xyxy": [
+        1950,
+        3061,
+        4695,
+        3781
+      ],
+      "bbox_context_local_xyxy": [
+        1098,
+        288,
+        1647,
+        432
+      ],
+      "context_render_size": [
+        2745,
+        720
+      ],
+      "bbox_rendered_xyxy": [
+        1098,
+        288,
+        1647,
+        432
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_top_candidate_005_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_006",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2459,
+        4186,
+        2823,
+        4457
+      ],
+      "context_crop_original_xyxy": [
+        1731,
+        3644,
+        3551,
+        4999
+      ],
+      "bbox_context_local_xyxy": [
+        728,
+        542,
+        1092,
+        813
+      ],
+      "context_render_size": [
+        1820,
+        1355
+      ],
+      "bbox_rendered_xyxy": [
+        728,
+        542,
+        1092,
+        813
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_top_candidate_006_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_007",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2280,
+        4902,
+        4347,
+        6339
+      ],
+      "context_crop_original_xyxy": [
+        0,
+        2028,
+        6928,
+        6928
+      ],
+      "bbox_context_local_xyxy": [
+        2280,
+        2874,
+        4347,
+        4311
+      ],
+      "context_render_size": [
+        6928,
+        4900
+      ],
+      "bbox_rendered_xyxy": [
+        2280,
+        2874,
+        4347,
+        4311
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_top_candidate_007_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_001",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2315,
+        404,
+        4394,
+        774
+      ],
+      "context_crop_original_xyxy": [
+        0,
+        0,
+        6928,
+        1514
+      ],
+      "bbox_context_local_xyxy": [
+        2315,
+        404,
+        4394,
+        774
+      ],
+      "context_render_size": [
+        6928,
+        1514
+      ],
+      "bbox_rendered_xyxy": [
+        2315,
+        404,
+        4394,
+        774
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_bottom_candidate_001_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_002",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3227,
+        1386,
+        3499,
+        1905
+      ],
+      "context_crop_original_xyxy": [
+        2683,
+        348,
+        4043,
+        2943
+      ],
+      "bbox_context_local_xyxy": [
+        544,
+        1038,
+        816,
+        1557
+      ],
+      "context_render_size": [
+        1360,
+        2595
+      ],
+      "bbox_rendered_xyxy": [
+        544,
+        1038,
+        816,
+        1557
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_bottom_candidate_002_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_003",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2598,
+        2032,
+        2638,
+        2142
+      ],
+      "context_crop_original_xyxy": [
+        2518,
+        1812,
+        2718,
+        2362
+      ],
+      "bbox_context_local_xyxy": [
+        80,
+        220,
+        120,
+        330
+      ],
+      "context_render_size": [
+        200,
+        550
+      ],
+      "bbox_rendered_xyxy": [
+        80,
+        220,
+        120,
+        330
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_bottom_candidate_003_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_004",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2996,
+        2459,
+        3245,
+        2754
+      ],
+      "context_crop_original_xyxy": [
+        2498,
+        1869,
+        3743,
+        3344
+      ],
+      "bbox_context_local_xyxy": [
+        498,
+        590,
+        747,
+        885
+      ],
+      "context_render_size": [
+        1245,
+        1475
+      ],
+      "bbox_rendered_xyxy": [
+        498,
+        590,
+        747,
+        885
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_bottom_candidate_004_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_005",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3539,
+        2459,
+        3735,
+        2754
+      ],
+      "context_crop_original_xyxy": [
+        3147,
+        1869,
+        4127,
+        3344
+      ],
+      "bbox_context_local_xyxy": [
+        392,
+        590,
+        588,
+        885
+      ],
+      "context_render_size": [
+        980,
+        1475
+      ],
+      "bbox_rendered_xyxy": [
+        392,
+        590,
+        588,
+        885
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_bottom_candidate_005_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_006",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3574,
+        4451,
+        4139,
+        4740
+      ],
+      "context_crop_original_xyxy": [
+        2444,
+        3873,
+        5269,
+        5318
+      ],
+      "bbox_context_local_xyxy": [
+        1130,
+        578,
+        1695,
+        867
+      ],
+      "context_render_size": [
+        2825,
+        1445
+      ],
+      "bbox_rendered_xyxy": [
+        1130,
+        578,
+        1695,
+        867
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_bottom_candidate_006_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_007",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2662,
+        4457,
+        3204,
+        4751
+      ],
+      "context_crop_original_xyxy": [
+        1578,
+        3869,
+        4288,
+        5339
+      ],
+      "bbox_context_local_xyxy": [
+        1084,
+        588,
+        1626,
+        882
+      ],
+      "context_render_size": [
+        2710,
+        1470
+      ],
+      "bbox_rendered_xyxy": [
+        1084,
+        588,
+        1626,
+        882
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_bottom_candidate_007_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_008",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        2690,
+        5109,
+        3210,
+        5398
+      ],
+      "context_crop_original_xyxy": [
+        1650,
+        4531,
+        4250,
+        5976
+      ],
+      "bbox_context_local_xyxy": [
+        1040,
+        578,
+        1560,
+        867
+      ],
+      "context_render_size": [
+        2600,
+        1445
+      ],
+      "bbox_rendered_xyxy": [
+        1040,
+        578,
+        1560,
+        867
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_bottom_candidate_008_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_009",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "coordinate_spaces": {
+        "bbox_original_xyxy": "original_image_xyxy",
+        "context_crop_original_xyxy": "context_crop_original_xyxy",
+        "bbox_context_local_xyxy": "context_crop_local_xyxy",
+        "bbox_rendered_xyxy": "context_rendered_xyxy"
+      },
+      "bbox_original_xyxy": [
+        3574,
+        5109,
+        4128,
+        5398
+      ],
+      "context_crop_original_xyxy": [
+        2466,
+        4531,
+        5236,
+        5976
+      ],
+      "bbox_context_local_xyxy": [
+        1108,
+        578,
+        1662,
+        867
+      ],
+      "context_render_size": [
+        2770,
+        1445
+      ],
+      "bbox_rendered_xyxy": [
+        1108,
+        578,
+        1662,
+        867
+      ],
+      "context_image_path": "outputs/poc01h_geometry/context_candidates/current_bottom_candidate_009_context.jpg"
+    }
+  ]
+}

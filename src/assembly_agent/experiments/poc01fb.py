@@ -36,6 +36,8 @@ ALLOWED_PART_DESCRIPTORS={catalog_descriptors}
 
 Reason by physical-part correspondence before classifying any error:
 1. Match plausible corresponding physical part instances between Current and Correct using multiple views where possible.
+   For repeated identical parts, explicitly reconcile the complete instance count and attachment anchors in both assemblies;
+   finding one Current-only instance does not end the search for a separate Correct-only instance of the same part type.
 2. A verified Current-only instance is extra_part.
 3. A verified Correct-only instance is missing_part; do not infer this from one occluded view.
 4. Corresponding positions with different identities are wrong_part.
@@ -43,7 +45,17 @@ Reason by physical-part correspondence before classifying any error:
 6. Use composite_error only for two or more independently correspondence-verified physical differences. A weak second discrepancy must not promote the result to composite_error.
 7. If correspondence cannot be established reliably, return uncertain rather than inventing a difference.
 
+Cross-view safeguards:
+- Image-left and image-right are camera-relative and may reverse across views. Never claim that two colored or symmetric
+  structural parts are swapped based only on their 2D side; verify their attachment anchors and connectivity as 3D instances.
+- Before returning, challenge every proposed difference with an ordinary-viewpoint explanation. Discard a claim if rotation,
+  occlusion, or a corresponding instance in another view explains it.
+- After reconciling all instances, report every independently verified Current-only and Correct-only instance, including when
+  extra and missing instances coexist. Do not stop after detecting the first error class.
+
 Report only supported structural differences, affected catalog parts, supporting views, conflicting views, and confidence. Do not output pixel locations or generate repair instructions.
+Before diagnosis, fill part_inventory for every allowed catalog descriptor in the given order. Count physical 3D instances,
+not repeated 2D appearances across views, and summarize attachment anchors. Use this mandatory inventory as the basis for correspondence.
 
 Current Assembly:
 - current_front
@@ -77,10 +89,23 @@ def diagnosis_schema(descriptors: tuple[str, ...]) -> dict[str, Any]:
         "type": "object",
         "additionalProperties": False,
         "required": [
-            "status", "error_type", "suspected_parts", "structural_difference",
+            "part_inventory", "status", "error_type", "suspected_parts", "structural_difference",
             "supporting_views", "conflicting_views", "confidence",
         ],
         "properties": {
+            "part_inventory": {
+                "type": "array", "minItems": len(descriptors), "maxItems": len(descriptors),
+                "items": {"type": "object", "additionalProperties": False,
+                    "required": ["descriptor", "current_count", "reference_count", "current_anchors", "reference_anchors", "confidence"],
+                    "properties": {
+                        "descriptor": {"type": "string", "enum": list(descriptors)},
+                        "current_count": {"type": "integer", "minimum": 0},
+                        "reference_count": {"type": "integer", "minimum": 0},
+                        "current_anchors": {"type": "array", "items": {"type": "string"}},
+                        "reference_anchors": {"type": "array", "items": {"type": "string"}},
+                        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+                    }},
+            },
             "status": {"type": "string", "enum": ["correct", "error", "uncertain"]},
             "error_type": {"type": "string", "enum": [
                 "extra_part", "missing_part", "wrong_part", "position_error", "composite_error", "uncertain",
@@ -144,6 +169,9 @@ def _audit_image(image: SelectedImage) -> dict[str, str]:
 
 def validate_prediction(prediction: dict[str, Any], descriptors: tuple[str, ...]) -> None:
     allowed = set(descriptors)
+    inventory = prediction.get("part_inventory", [])
+    if [item.get("descriptor") for item in inventory if isinstance(item, dict)] != list(descriptors):
+        raise ValueError("Gemini part_inventory must contain every catalog descriptor exactly once in catalog order")
     for part in prediction.get("suspected_parts", []):
         descriptor = part.get("descriptor") if isinstance(part, dict) else None
         if descriptor not in allowed:
@@ -253,4 +281,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

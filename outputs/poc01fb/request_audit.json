@@ -1,0 +1,131 @@
+{
+  "experiment": "POC-01F-B",
+  "model_id": "model03",
+  "step_id": "step03",
+  "vision_model": "gemini-3.1-pro-preview",
+  "temperature": 0,
+  "current_images": [
+    {
+      "view": "front",
+      "gemini_facing_id": "current_front",
+      "record_id": "record_b612de89a3e6093fada2",
+      "capture_id": "01",
+      "source_path": "raw_data/model03/extrapart/model03_step03/model03_step03_extrapart-A01_front_01 (2).jpg"
+    },
+    {
+      "view": "back",
+      "gemini_facing_id": "current_back",
+      "record_id": "record_bef0ea3b617989e7842e",
+      "capture_id": "01",
+      "source_path": "raw_data/model03/extrapart/model03_step03/model03_step03_extrapart-A01_back_01 (2).jpg"
+    },
+    {
+      "view": "left",
+      "gemini_facing_id": "current_left",
+      "record_id": "record_0ac0343c2bd68beb0815",
+      "capture_id": "01",
+      "source_path": "raw_data/model03/extrapart/model03_step03/model03_step03_extrapart-A01_left_01 (2).jpg"
+    },
+    {
+      "view": "right",
+      "gemini_facing_id": "current_right",
+      "record_id": "record_64438ef356eab306a565",
+      "capture_id": "01",
+      "source_path": "raw_data/model03/extrapart/model03_step03/model03_step03_extrapart-A01_right_01.jpg"
+    },
+    {
+      "view": "top",
+      "gemini_facing_id": "current_top",
+      "record_id": "record_39aa77912632d117a6b8",
+      "capture_id": "01",
+      "source_path": "raw_data/model03/extrapart/model03_step03/model03_step03_extrapart-A01_top_01.jpg"
+    },
+    {
+      "view": "bottom",
+      "gemini_facing_id": "current_bottom",
+      "record_id": "record_00971213296294c3422f",
+      "capture_id": "01",
+      "source_path": "raw_data/model03/extrapart/model03_step03/model03_step03_extrapart-A01_bottom_01 (2).jpg"
+    }
+  ],
+  "reference_images": [
+    {
+      "view": "front",
+      "gemini_facing_id": "reference_front",
+      "record_id": "record_80efff851d5c7bc42b09",
+      "capture_id": "01",
+      "source_path": "raw_data/model03/normal/model03_step03/model03_step03_correct-01_front_01 (2).jpg"
+    },
+    {
+      "view": "back",
+      "gemini_facing_id": "reference_back",
+      "record_id": "record_657715618c791d8f2234",
+      "capture_id": "01",
+      "source_path": "raw_data/model03/normal/model03_step03/model03_step03_correct-01_back_01 (2).jpg"
+    },
+    {
+      "view": "left",
+      "gemini_facing_id": "reference_left",
+      "record_id": "record_2803942e06cdb4fc9fcc",
+      "capture_id": "01",
+      "source_path": "raw_data/model03/normal/model03_step03/model03_step03_correct-01_left_01 (1).jpg"
+    },
+    {
+      "view": "right",
+      "gemini_facing_id": "reference_right",
+      "record_id": "record_d58bcefbbcd6a982ab55",
+      "capture_id": "01",
+      "source_path": "raw_data/model03/normal/model03_step03/model03_step03_correct-01_right_01 (2).jpg"
+    },
+    {
+      "view": "top",
+      "gemini_facing_id": "reference_top",
+      "record_id": "record_b1b68180a812b675812b",
+      "capture_id": "01",
+      "source_path": "raw_data/model03/normal/model03_step03/model03_step03_correct-01_top_01 (1).jpg"
+    },
+    {
+      "view": "bottom",
+      "gemini_facing_id": "reference_bottom",
+      "record_id": "record_c794cb70e94f6381b075",
+      "capture_id": "01",
+      "source_path": "raw_data/model03/normal/model03_step03/model03_step03_correct-01_bottom_01 (2).jpg"
+    }
+  ],
+  "reference_capture_selection_rule": "lowest_capture_id_then_source_path_then_record_id",
+  "gemini_facing_image_ids": [
+    "current_front",
+    "current_back",
+    "current_left",
+    "current_right",
+    "current_top",
+    "current_bottom",
+    "reference_front",
+    "reference_back",
+    "reference_left",
+    "reference_right",
+    "reference_top",
+    "reference_bottom"
+  ],
+  "use_part_catalog": true,
+  "catalog_descriptor_count": 15,
+  "catalog_descriptors": [
+    "BLOCK_GREEN_4HOLE_2PEG",
+    "BLOCK_YELLOW_CUBE",
+    "CONNECTOR_ORANGE",
+    "EYE_BALL",
+    "JOINT_BLUE_Y",
+    "JOINT_YELLOW_H",
+    "LINK_BLUE_5HOLE",
+    "LINK_GREEN_5HOLE",
+    "LINK_RED_3HOLE",
+    "PIN_RED_SHORT",
+    "PIN_YELLOW",
+    "PLATE_BLUE_TRIANGLE",
+    "ROD_GREEN_LONG",
+    "WHEEL_BLUE_LARGE",
+    "WHEEL_BLUE_SMALL"
+  ],
+  "ground_truth_exposed": false,
+  "previous_prediction_exposed": false
+}

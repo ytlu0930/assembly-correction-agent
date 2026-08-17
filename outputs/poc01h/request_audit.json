@@ -1,0 +1,38 @@
+{
+  "experiment": "POC-01H",
+  "upstream_experiment": "POC-01F-B",
+  "vision_model": "gemini-3.1-pro-preview",
+  "temperature": 0,
+  "current_view_count": 6,
+  "reference_view_count": 6,
+  "current_record_ids": [
+    "record_b612de89a3e6093fada2",
+    "record_bef0ea3b617989e7842e",
+    "record_0ac0343c2bd68beb0815",
+    "record_64438ef356eab306a565",
+    "record_39aa77912632d117a6b8",
+    "record_00971213296294c3422f"
+  ],
+  "reference_record_ids": [
+    "record_80efff851d5c7bc42b09",
+    "record_657715618c791d8f2234",
+    "record_2803942e06cdb4fc9fcc",
+    "record_d58bcefbbcd6a982ab55",
+    "record_b1b68180a812b675812b",
+    "record_c794cb70e94f6381b075"
+  ],
+  "candidate_counts_per_view": {
+    "front": 10,
+    "back": 5,
+    "left": 7,
+    "right": 9,
+    "top": 7,
+    "bottom": 9
+  },
+  "hypothesis_source": "persisted_agent_prediction",
+  "human_target_exposed": false,
+  "human_bbox_exposed": false,
+  "gemini_coordinates_allowed": false,
+  "structural_location_used_for_candidate_generation": false,
+  "candidate_ids_neutral": true
+}

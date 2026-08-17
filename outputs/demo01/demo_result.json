@@ -1,0 +1,115 @@
+{
+  "model_id": "model03",
+  "step_id": "step03",
+  "neutral_input_image_id": "demo_current_0001",
+  "reference_image_id": "demo_reference_0001",
+  "vision_provider": "google",
+  "vision_model": "gemini-3.1-pro-preview",
+  "vision_prompt_version": "demo01-v1",
+  "predicted_error_type": "extra_part",
+  "predicted_part_descriptor": "PIN_RED_SHORT",
+  "stage_a": {
+    "status": "error",
+    "error_type": "extra_part",
+    "target_part_descriptor": "PIN_RED_SHORT",
+    "confidence": 0.99,
+    "structural_evidence": "An extra red short pin is inserted into the left hole of the blue triangle plate, which is empty in the correct reference image."
+  },
+  "stage_b": {
+    "target_descriptor": "PIN_RED_SHORT",
+    "candidates": [
+      {
+        "candidate_id": "pin_red_short_front_left",
+        "bbox": [
+          338,
+          356,
+          506,
+          422
+        ],
+        "point": [
+          422,
+          389
+        ],
+        "structural_relation": "inserted into the left hole of the blue U-shaped part",
+        "neighboring_parts": [
+          "blue U-shaped part"
+        ],
+        "comparison_result": "current_only",
+        "confidence": 0.99
+      },
+      {
+        "candidate_id": "pin_red_short_back_upper",
+        "bbox": [
+          147,
+          421,
+          185,
+          585
+        ],
+        "point": [
+          166,
+          453
+        ],
+        "structural_relation": "inserted into the upper hole of the rear green rod",
+        "neighboring_parts": [
+          "green rod"
+        ],
+        "comparison_result": "current_only",
+        "confidence": 0.9
+      },
+      {
+        "candidate_id": "pin_red_short_back_lower",
+        "bbox": [
+          218,
+          425,
+          252,
+          578
+        ],
+        "point": [
+          235,
+          453
+        ],
+        "structural_relation": "inserted into the lower hole of the rear green rod",
+        "neighboring_parts": [
+          "green rod"
+        ],
+        "comparison_result": "present_in_both",
+        "confidence": 0.9
+      }
+    ],
+    "selected_candidate_id": "pin_red_short_front_left",
+    "localization_status": "verified"
+  },
+  "localization_status": "verified",
+  "localization": {
+    "candidate_id": "pin_red_short_front_left",
+    "bbox": [
+      338,
+      356,
+      506,
+      422
+    ],
+    "point": [
+      422,
+      389
+    ],
+    "structural_relation": "inserted into the left hole of the blue U-shaped part",
+    "neighboring_parts": [
+      "blue U-shaped part"
+    ],
+    "comparison_result": "current_only",
+    "confidence": 0.99
+  },
+  "correction_action": {
+    "action": "REMOVE",
+    "target_descriptor": "PIN_RED_SHORT"
+  },
+  "annotated_image_path": "outputs/demo01/annotated_remove.png",
+  "evaluator": {
+    "error_type_correct": true,
+    "part_correct": true,
+    "localization_correct": null,
+    "evaluation_status": "unevaluated",
+    "iou": null,
+    "normalized_center_distance": null
+  }
+}

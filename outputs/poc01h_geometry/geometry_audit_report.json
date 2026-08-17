@@ -1,0 +1,8 @@
+{
+  "candidate_count": 47,
+  "pixel_fidelity_failures": 0,
+  "out_of_bounds_failures": 0,
+  "invalid_bbox_failures": 0,
+  "failure_classification": [],
+  "gemini_calls": 0
+}

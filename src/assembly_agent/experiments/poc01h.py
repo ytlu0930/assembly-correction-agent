@@ -10,7 +10,7 @@ from typing import Any, Callable
 
 import cv2
 import numpy as np
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageOps
 
 from assembly_agent.reference import CANONICAL_VIEWS
 from assembly_agent.vision.gemini import VisionConfigurationError, VisionProviderError
@@ -55,10 +55,20 @@ def _expanded(box: tuple[int, int, int, int], size: tuple[int, int], factor: flo
     return max(0, int(cx - half_w)), max(0, int(cy - half_h)), min(width, int(cx + half_w)), min(height, int(cy + half_h))
 
 
+def _oriented_rgb(path: Path) -> Image.Image:
+    """Load pixels in the same display orientation used for crops and annotations."""
+    try:
+        with Image.open(path) as source:
+            return ImageOps.exif_transpose(source).convert("RGB")
+    except (OSError, ValueError) as error:
+        raise ValueError(f"cannot read Current image: {path}") from error
+
+
 def _red_regions(path: Path) -> list[tuple[int, int, int, int]]:
-    image = cv2.imread(str(path))
-    if image is None:
-        raise ValueError(f"cannot read Current image: {path}")
+    # OpenCV ignores JPEG EXIF orientation in some builds/configurations. Detect
+    # on the explicitly oriented PIL pixels so these boxes share the exact same
+    # coordinate space as the PIL crops below.
+    image = cv2.cvtColor(np.asarray(_oriented_rgb(path)), cv2.COLOR_RGB2BGR)
     height, width = image.shape[:2]
     scale = min(1.0, 1200 / max(height, width))
     work = cv2.resize(image, None, fx=scale, fy=scale, interpolation=cv2.INTER_AREA) if scale < 1 else image
@@ -81,7 +91,7 @@ def generate_candidates(root: Path, current: tuple[SelectedImage, ...], output_d
     crop_dir.mkdir(parents=True, exist_ok=True)
     candidates: list[Candidate] = []
     for selected in current:
-        source = Image.open(selected.path).convert("RGB")
+        source = _oriented_rgb(selected.path)
         for index, box in enumerate(_red_regions(selected.path), start=1):
             candidate_id = f"current_{selected.view}_candidate_{index:03d}"
             tight_box = _expanded(box, source.size, 1.6)

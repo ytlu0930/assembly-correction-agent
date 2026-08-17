@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Iterable
 
 import numpy as np
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageOps
 
 from assembly_agent.reference import CANONICAL_VIEWS
 
@@ -117,7 +117,8 @@ def run_geometry_audit(root: Path, output_dir: Path | None = None) -> dict:
     pixel_failures = out_of_bounds = invalid = 0
     for view in CANONICAL_VIEWS:
         selected = by_view[view]
-        original = Image.open(selected.path).convert("RGB")
+        with Image.open(selected.path) as source:
+            original = ImageOps.exif_transpose(source).convert("RGB")
         debug = original.copy()
         for item in (entry for entry in persisted if entry["view"] == view):
             try:
@@ -167,4 +168,3 @@ def run_geometry_audit(root: Path, output_dir: Path | None = None) -> dict:
 
 if __name__ == "__main__":
     print(json.dumps(run_geometry_audit(Path(__file__).resolve().parents[3]), indent=2))
-

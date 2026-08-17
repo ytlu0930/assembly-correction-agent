@@ -1,0 +1,275 @@
+{
+  "experiment": "ROUND-02-INVENTORY-V3",
+  "prediction": {
+    "part_inventory": [
+      {
+        "descriptor": "BLOCK_GREEN_4HOLE_2PEG",
+        "current_count": 0,
+        "reference_count": 0,
+        "current_anchors": [],
+        "reference_anchors": [],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "BLOCK_YELLOW_CUBE",
+        "current_count": 1,
+        "reference_count": 1,
+        "current_anchors": [
+          "LINK_BLUE_5HOLE",
+          "LINK_GREEN_5HOLE",
+          "CONNECTOR_ORANGE",
+          "ROD_GREEN_LONG"
+        ],
+        "reference_anchors": [
+          "LINK_BLUE_5HOLE",
+          "LINK_GREEN_5HOLE",
+          "CONNECTOR_ORANGE",
+          "ROD_GREEN_LONG",
+          "PIN_RED_SHORT"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "CONNECTOR_ORANGE",
+        "current_count": 1,
+        "reference_count": 1,
+        "current_anchors": [
+          "BLOCK_YELLOW_CUBE",
+          "PIN_YELLOW"
+        ],
+        "reference_anchors": [
+          "BLOCK_YELLOW_CUBE",
+          "PIN_YELLOW"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "EYE_BALL",
+        "current_count": 5,
+        "reference_count": 3,
+        "current_anchors": [
+          "JOINT_BLUE_Y",
+          "ROD_GREEN_LONG",
+          "PIN_RED_SHORT"
+        ],
+        "reference_anchors": [
+          "JOINT_BLUE_Y",
+          "ROD_GREEN_LONG"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "JOINT_BLUE_Y",
+        "current_count": 1,
+        "reference_count": 1,
+        "current_anchors": [
+          "PLATE_BLUE_TRIANGLE",
+          "EYE_BALL"
+        ],
+        "reference_anchors": [
+          "PLATE_BLUE_TRIANGLE",
+          "EYE_BALL"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "JOINT_YELLOW_H",
+        "current_count": 0,
+        "reference_count": 0,
+        "current_anchors": [],
+        "reference_anchors": [],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "LINK_BLUE_5HOLE",
+        "current_count": 1,
+        "reference_count": 1,
+        "current_anchors": [
+          "BLOCK_YELLOW_CUBE",
+          "WHEEL_BLUE_LARGE",
+          "PLATE_BLUE_TRIANGLE"
+        ],
+        "reference_anchors": [
+          "BLOCK_YELLOW_CUBE",
+          "WHEEL_BLUE_LARGE",
+          "PLATE_BLUE_TRIANGLE"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "LINK_GREEN_5HOLE",
+        "current_count": 1,
+        "reference_count": 1,
+        "current_anchors": [
+          "BLOCK_YELLOW_CUBE",
+          "WHEEL_BLUE_LARGE",
+          "PLATE_BLUE_TRIANGLE"
+        ],
+        "reference_anchors": [
+          "BLOCK_YELLOW_CUBE",
+          "WHEEL_BLUE_LARGE",
+          "PLATE_BLUE_TRIANGLE"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "LINK_RED_3HOLE",
+        "current_count": 1,
+        "reference_count": 1,
+        "current_anchors": [
+          "PIN_YELLOW"
+        ],
+        "reference_anchors": [
+          "PIN_YELLOW"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "PIN_RED_SHORT",
+        "current_count": 3,
+        "reference_count": 3,
+        "current_anchors": [
+          "ROD_GREEN_LONG",
+          "PLATE_BLUE_TRIANGLE",
+          "EYE_BALL"
+        ],
+        "reference_anchors": [
+          "ROD_GREEN_LONG",
+          "BLOCK_YELLOW_CUBE"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "PIN_YELLOW",
+        "current_count": 2,
+        "reference_count": 1,
+        "current_anchors": [
+          "CONNECTOR_ORANGE",
+          "LINK_RED_3HOLE"
+        ],
+        "reference_anchors": [
+          "CONNECTOR_ORANGE",
+          "LINK_RED_3HOLE"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "PLATE_BLUE_TRIANGLE",
+        "current_count": 1,
+        "reference_count": 1,
+        "current_anchors": [
+          "LINK_BLUE_5HOLE",
+          "LINK_GREEN_5HOLE",
+          "JOINT_BLUE_Y",
+          "PIN_RED_SHORT"
+        ],
+        "reference_anchors": [
+          "LINK_BLUE_5HOLE",
+          "LINK_GREEN_5HOLE",
+          "JOINT_BLUE_Y"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "ROD_GREEN_LONG",
+        "current_count": 1,
+        "reference_count": 1,
+        "current_anchors": [
+          "BLOCK_YELLOW_CUBE",
+          "PIN_RED_SHORT",
+          "EYE_BALL"
+        ],
+        "reference_anchors": [
+          "BLOCK_YELLOW_CUBE",
+          "PIN_RED_SHORT",
+          "EYE_BALL"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "WHEEL_BLUE_LARGE",
+        "current_count": 4,
+        "reference_count": 4,
+        "current_anchors": [
+          "LINK_BLUE_5HOLE",
+          "LINK_GREEN_5HOLE"
+        ],
+        "reference_anchors": [
+          "LINK_BLUE_5HOLE",
+          "LINK_GREEN_5HOLE"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "descriptor": "WHEEL_BLUE_SMALL",
+        "current_count": 0,
+        "reference_count": 0,
+        "current_anchors": [],
+        "reference_anchors": [],
+        "confidence": 1.0
+      }
+    ],
+    "status": "error",
+    "error_type": "composite_error",
+    "suspected_parts": [
+      {
+        "descriptor": "EYE_BALL",
+        "description": "Two extra eyeballs are attached to the ends of the red pin on the green rod.",
+        "comparison_result": "current_only",
+        "supporting_views": [
+          "front",
+          "back",
+          "left",
+          "right",
+          "top"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "descriptor": "PIN_YELLOW",
+        "description": "An extra yellow pin is attached to the front hole of the red link.",
+        "comparison_result": "current_only",
+        "supporting_views": [
+          "front",
+          "top",
+          "bottom"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "descriptor": "PIN_RED_SHORT",
+        "description": "A red pin is incorrectly positioned on the top of the blue triangle plate instead of the bottom of the yellow cube.",
+        "comparison_result": "attachment_mismatch",
+        "supporting_views": [
+          "front",
+          "top",
+          "bottom"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "descriptor": "ROD_GREEN_LONG",
+        "description": "The green rod is attached to the yellow cube pointing upwards instead of downwards.",
+        "comparison_result": "attachment_mismatch",
+        "supporting_views": [
+          "left",
+          "right",
+          "back"
+        ],
+        "confidence": 0.99
+      }
+    ],
+    "structural_difference": "The current assembly has multiple errors: 1) Two extra EYE_BALL parts are attached to the red pin on the green rod. 2) An extra PIN_YELLOW is attached to the front of the red link. 3) A PIN_RED_SHORT is mispositioned on the blue triangle plate instead of the yellow cube. 4) The ROD_GREEN_LONG is rotated 180 degrees, pointing upwards instead of downwards.",
+    "supporting_views": [
+      "front",
+      "back",
+      "left",
+      "right",
+      "top",
+      "bottom"
+    ],
+    "conflicting_views": [],
+    "confidence": 0.99
+  },
+  "evaluation_status": "pending_human_gt_comparison"
+}

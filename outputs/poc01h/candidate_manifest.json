@@ -1,0 +1,615 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "current_front_candidate_001",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "bbox_original_xyxy": [
+        3626,
+        1028,
+        4059,
+        1276
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_front_candidate_001_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_front_candidate_001_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_002",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "bbox_original_xyxy": [
+        2916,
+        1045,
+        3343,
+        1299
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_front_candidate_002_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_front_candidate_002_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_003",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "bbox_original_xyxy": [
+        3643,
+        1513,
+        4030,
+        1755
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_front_candidate_003_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_front_candidate_003_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_004",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "bbox_original_xyxy": [
+        2933,
+        1524,
+        3354,
+        1761
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_front_candidate_004_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_front_candidate_004_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_005",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "bbox_original_xyxy": [
+        2471,
+        2338,
+        2921,
+        3499
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_front_candidate_005_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_front_candidate_005_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_006",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "bbox_original_xyxy": [
+        2887,
+        3949,
+        4215,
+        4884
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_front_candidate_006_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_front_candidate_006_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_007",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "bbox_original_xyxy": [
+        2015,
+        5127,
+        5132,
+        6195
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_front_candidate_007_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_front_candidate_007_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_008",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "bbox_original_xyxy": [
+        2425,
+        6149,
+        2875,
+        6212
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_front_candidate_008_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_front_candidate_008_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_009",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "bbox_original_xyxy": [
+        2610,
+        6258,
+        2840,
+        6299
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_front_candidate_009_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_front_candidate_009_context.jpg"
+    },
+    {
+      "candidate_id": "current_front_candidate_010",
+      "view": "front",
+      "source_record_id": "record_b612de89a3e6093fada2",
+      "bbox_original_xyxy": [
+        2431,
+        6264,
+        2517,
+        6293
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_front_candidate_010_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_front_candidate_010_context.jpg"
+    },
+    {
+      "candidate_id": "current_back_candidate_001",
+      "view": "back",
+      "source_record_id": "record_bef0ea3b617989e7842e",
+      "bbox_original_xyxy": [
+        3793,
+        1524,
+        4370,
+        2159
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_back_candidate_001_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_back_candidate_001_context.jpg"
+    },
+    {
+      "candidate_id": "current_back_candidate_002",
+      "view": "back",
+      "source_record_id": "record_bef0ea3b617989e7842e",
+      "bbox_original_xyxy": [
+        2431,
+        1680,
+        2967,
+        1894
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_back_candidate_002_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_back_candidate_002_context.jpg"
+    },
+    {
+      "candidate_id": "current_back_candidate_003",
+      "view": "back",
+      "source_record_id": "record_bef0ea3b617989e7842e",
+      "bbox_original_xyxy": [
+        3008,
+        3089,
+        3816,
+        3435
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_back_candidate_003_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_back_candidate_003_context.jpg"
+    },
+    {
+      "candidate_id": "current_back_candidate_004",
+      "view": "back",
+      "source_record_id": "record_bef0ea3b617989e7842e",
+      "bbox_original_xyxy": [
+        3747,
+        4047,
+        4873,
+        5023
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_back_candidate_004_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_back_candidate_004_context.jpg"
+    },
+    {
+      "candidate_id": "current_back_candidate_005",
+      "view": "back",
+      "source_record_id": "record_bef0ea3b617989e7842e",
+      "bbox_original_xyxy": [
+        1951,
+        4059,
+        3089,
+        5098
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_back_candidate_005_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_back_candidate_005_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_001",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "bbox_original_xyxy": [
+        2413,
+        2153,
+        2742,
+        2760
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_left_candidate_001_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_left_candidate_001_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_002",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "bbox_original_xyxy": [
+        5606,
+        2234,
+        6102,
+        2737
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_left_candidate_002_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_left_candidate_002_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_003",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "bbox_original_xyxy": [
+        5098,
+        2794,
+        5519,
+        3308
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_left_candidate_003_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_left_candidate_003_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_004",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "bbox_original_xyxy": [
+        543,
+        3245,
+        2136,
+        4982
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_left_candidate_004_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_left_candidate_004_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_005",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "bbox_original_xyxy": [
+        3562,
+        3568,
+        3799,
+        3764
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_left_candidate_005_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_left_candidate_005_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_006",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "bbox_original_xyxy": [
+        3562,
+        4088,
+        3828,
+        4313
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_left_candidate_006_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_left_candidate_006_context.jpg"
+    },
+    {
+      "candidate_id": "current_left_candidate_007",
+      "view": "left",
+      "source_record_id": "record_0ac0343c2bd68beb0815",
+      "bbox_original_xyxy": [
+        1305,
+        4699,
+        1617,
+        4919
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_left_candidate_007_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_left_candidate_007_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_001",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "bbox_original_xyxy": [
+        1322,
+        2523,
+        1513,
+        2702
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_right_candidate_001_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_right_candidate_001_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_002",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "bbox_original_xyxy": [
+        883,
+        2881,
+        1322,
+        3395
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_right_candidate_002_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_right_candidate_002_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_003",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "bbox_original_xyxy": [
+        1801,
+        2967,
+        1969,
+        3118
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_right_candidate_003_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_right_candidate_003_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_004",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "bbox_original_xyxy": [
+        4007,
+        3210,
+        4359,
+        4243
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_right_candidate_004_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_right_candidate_004_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_005",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "bbox_original_xyxy": [
+        1426,
+        3331,
+        1824,
+        3839
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_right_candidate_005_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_right_candidate_005_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_006",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "bbox_original_xyxy": [
+        4688,
+        3556,
+        6143,
+        5213
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_right_candidate_006_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_right_candidate_006_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_007",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "bbox_original_xyxy": [
+        3089,
+        3903,
+        3320,
+        4157
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_right_candidate_007_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_right_candidate_007_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_008",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "bbox_original_xyxy": [
+        3043,
+        4474,
+        3285,
+        4671
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_right_candidate_008_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_right_candidate_008_context.jpg"
+    },
+    {
+      "candidate_id": "current_right_candidate_009",
+      "view": "right",
+      "source_record_id": "record_64438ef356eab306a565",
+      "bbox_original_xyxy": [
+        5052,
+        5063,
+        5346,
+        5254
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_right_candidate_009_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_right_candidate_009_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_001",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "bbox_original_xyxy": [
+        3481,
+        1045,
+        3937,
+        1293
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_top_candidate_001_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_top_candidate_001_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_002",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "bbox_original_xyxy": [
+        2737,
+        1051,
+        3181,
+        1299
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_top_candidate_002_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_top_candidate_002_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_003",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "bbox_original_xyxy": [
+        2748,
+        1668,
+        3187,
+        1905
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_top_candidate_003_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_top_candidate_003_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_004",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "bbox_original_xyxy": [
+        3481,
+        1674,
+        3920,
+        1911
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_top_candidate_004_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_top_candidate_004_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_005",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "bbox_original_xyxy": [
+        3048,
+        3349,
+        3597,
+        3493
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_top_candidate_005_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_top_candidate_005_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_006",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "bbox_original_xyxy": [
+        2459,
+        4186,
+        2823,
+        4457
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_top_candidate_006_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_top_candidate_006_context.jpg"
+    },
+    {
+      "candidate_id": "current_top_candidate_007",
+      "view": "top",
+      "source_record_id": "record_39aa77912632d117a6b8",
+      "bbox_original_xyxy": [
+        2280,
+        4902,
+        4347,
+        6339
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_top_candidate_007_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_top_candidate_007_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_001",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "bbox_original_xyxy": [
+        2315,
+        404,
+        4394,
+        774
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_001_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_001_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_002",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "bbox_original_xyxy": [
+        3227,
+        1386,
+        3499,
+        1905
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_002_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_002_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_003",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "bbox_original_xyxy": [
+        2598,
+        2032,
+        2638,
+        2142
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_003_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_003_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_004",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "bbox_original_xyxy": [
+        2996,
+        2459,
+        3245,
+        2754
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_004_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_004_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_005",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "bbox_original_xyxy": [
+        3539,
+        2459,
+        3735,
+        2754
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_005_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_005_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_006",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "bbox_original_xyxy": [
+        3574,
+        4451,
+        4139,
+        4740
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_006_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_006_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_007",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "bbox_original_xyxy": [
+        2662,
+        4457,
+        3204,
+        4751
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_007_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_007_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_008",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "bbox_original_xyxy": [
+        2690,
+        5109,
+        3210,
+        5398
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_008_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_008_context.jpg"
+    },
+    {
+      "candidate_id": "current_bottom_candidate_009",
+      "view": "bottom",
+      "source_record_id": "record_00971213296294c3422f",
+      "bbox_original_xyxy": [
+        3574,
+        5109,
+        4128,
+        5398
+      ],
+      "tight_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_009_tight.jpg",
+      "context_crop_path": "outputs/poc01h/candidates/current_bottom_candidate_009_context.jpg"
+    }
+  ]
+}

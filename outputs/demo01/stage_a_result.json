@@ -1,0 +1,7 @@
+{
+  "status": "error",
+  "error_type": "extra_part",
+  "target_part_descriptor": "PIN_RED_SHORT",
+  "confidence": 0.99,
+  "structural_evidence": "An extra red short pin is inserted into the left hole of the blue triangle plate, which is empty in the correct reference image."
+}

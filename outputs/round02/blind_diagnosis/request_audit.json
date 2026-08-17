@@ -1,0 +1,38 @@
+{
+  "experiment": "ROUND-02-BLIND-DIAGNOSIS",
+  "method": "POC-01F-B",
+  "model_id": "model03",
+  "step_id": "step03",
+  "case_id": "A01",
+  "image_ids": [
+    "current_front",
+    "current_back",
+    "current_left",
+    "current_right",
+    "current_top",
+    "current_bottom",
+    "reference_front",
+    "reference_back",
+    "reference_left",
+    "reference_right",
+    "reference_top",
+    "reference_bottom"
+  ],
+  "record_ids": [
+    "record_091d90e9e084172ec925",
+    "record_d623518b503163b51445",
+    "record_038e2d6f6974033b0b27",
+    "record_6c4e2980565e4c92abd1",
+    "record_ffbc8d3bda1d52015a69",
+    "record_90bdb1d8e4b9c4a36c19",
+    "record_80efff851d5c7bc42b09",
+    "record_657715618c791d8f2234",
+    "record_2803942e06cdb4fc9fcc",
+    "record_d58bcefbbcd6a982ab55",
+    "record_b1b68180a812b675812b",
+    "record_c794cb70e94f6381b075"
+  ],
+  "ground_truth_exposed": false,
+  "dataset_label_exposed": false,
+  "human_annotation_exposed": false
+}

@@ -1,0 +1,57 @@
+{
+  "round": "round02",
+  "model_id": "model03",
+  "step_id": "step03",
+  "human_labeling_case": "wrong_part_A01",
+  "model_input_ground_truth_exposed": false,
+  "pairs": [
+    {
+      "view": "front",
+      "labeling_image": "outputs/round02/human_labeling/front_pair.jpg",
+      "current_record_id": "record_091d90e9e084172ec925",
+      "reference_record_id": "record_80efff851d5c7bc42b09",
+      "current_source_path": "raw_data/model03/wrongpart/model03_step03/model03_step03_wrongpart-A01_front_01 (2).jpg",
+      "reference_source_path": "raw_data/model03/normal/model03_step03/model03_step03_correct-01_front_01 (2).jpg"
+    },
+    {
+      "view": "back",
+      "labeling_image": "outputs/round02/human_labeling/back_pair.jpg",
+      "current_record_id": "record_d623518b503163b51445",
+      "reference_record_id": "record_657715618c791d8f2234",
+      "current_source_path": "raw_data/model03/wrongpart/model03_step03/model03_step03_wrongpart-A01_back_01 (2).jpg",
+      "reference_source_path": "raw_data/model03/normal/model03_step03/model03_step03_correct-01_back_01 (2).jpg"
+    },
+    {
+      "view": "left",
+      "labeling_image": "outputs/round02/human_labeling/left_pair.jpg",
+      "current_record_id": "record_038e2d6f6974033b0b27",
+      "reference_record_id": "record_2803942e06cdb4fc9fcc",
+      "current_source_path": "raw_data/model03/wrongpart/model03_step03/model03_step03_wrongpart-A01_left_01 (1).jpg",
+      "reference_source_path": "raw_data/model03/normal/model03_step03/model03_step03_correct-01_left_01 (1).jpg"
+    },
+    {
+      "view": "right",
+      "labeling_image": "outputs/round02/human_labeling/right_pair.jpg",
+      "current_record_id": "record_6c4e2980565e4c92abd1",
+      "reference_record_id": "record_d58bcefbbcd6a982ab55",
+      "current_source_path": "raw_data/model03/wrongpart/model03_step03/model03_step03_wrongpart-A01_right_01 (2).jpg",
+      "reference_source_path": "raw_data/model03/normal/model03_step03/model03_step03_correct-01_right_01 (2).jpg"
+    },
+    {
+      "view": "top",
+      "labeling_image": "outputs/round02/human_labeling/top_pair.jpg",
+      "current_record_id": "record_ffbc8d3bda1d52015a69",
+      "reference_record_id": "record_b1b68180a812b675812b",
+      "current_source_path": "raw_data/model03/wrongpart/model03_step03/model03_step03_wrongpart-A01_top_01 (1).jpg",
+      "reference_source_path": "raw_data/model03/normal/model03_step03/model03_step03_correct-01_top_01 (1).jpg"
+    },
+    {
+      "view": "bottom",
+      "labeling_image": "outputs/round02/human_labeling/bottom_pair.jpg",
+      "current_record_id": "record_90bdb1d8e4b9c4a36c19",
+      "reference_record_id": "record_c794cb70e94f6381b075",
+      "current_source_path": "raw_data/model03/wrongpart/model03_step03/model03_step03_wrongpart-A01_bottom_01 (2).jpg",
+      "reference_source_path": "raw_data/model03/normal/model03_step03/model03_step03_correct-01_bottom_01 (2).jpg"
+    }
+  ]
+}

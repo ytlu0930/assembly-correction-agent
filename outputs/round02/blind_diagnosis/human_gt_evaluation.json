@@ -1,0 +1,22 @@
+{
+  "round": "round02",
+  "overall_result": "fail",
+  "error_detection": "pass",
+  "error_classification": "pass",
+  "ground_truth_claim_count": 3,
+  "correct_claims": [
+    "extra_eye_left",
+    "extra_eye_right"
+  ],
+  "missed_claims": [
+    "missing_eye_center"
+  ],
+  "unsupported_model_claims": [
+    "extra yellow pin in the center of the front red bumper",
+    "left and right blue/green 5-hole chassis links are identity mismatches"
+  ],
+  "part_instance_recall": 0.6667,
+  "unsupported_claim_count": 3,
+  "localization_status": "not_run_because_diagnosis_not_fully_supported",
+  "ground_truth_source": "outputs/round02/human_ground_truth.json"
+}

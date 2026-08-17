@@ -1,0 +1,53 @@
+{
+  "status": "error",
+  "error_type": "composite_error",
+  "suspected_parts": [
+    {
+      "descriptor": "LINK_BLUE_5HOLE",
+      "description": "The left chassis link is a blue 5-hole link in the current assembly, whereas the reference assembly uses a green 5-hole link in this position.",
+      "comparison_result": "identity_mismatch",
+      "supporting_views": [
+        "front",
+        "back",
+        "top",
+        "bottom"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "descriptor": "LINK_GREEN_5HOLE",
+      "description": "The right chassis link is a green 5-hole link in the current assembly, whereas the reference assembly uses a blue 5-hole link in this position.",
+      "comparison_result": "identity_mismatch",
+      "supporting_views": [
+        "front",
+        "back",
+        "top",
+        "bottom"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "descriptor": "PIN_RED_SHORT",
+      "description": "An extra red short pin is inserted into the front hole of the blue triangle plate in the current assembly.",
+      "comparison_result": "current_only",
+      "supporting_views": [
+        "front",
+        "left",
+        "right",
+        "top"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "structural_difference": "The current assembly has two independent errors compared to the reference. First, the left and right chassis links are swapped: the current assembly has a blue 5-hole link on the left and a green 5-hole link on the right, while the reference has a green 5-hole link on the left and a blue 5-hole link on the right. Second, the current assembly includes an extra red short pin inserted into the front hole of the blue triangle plate, which is empty in the reference assembly.",
+  "supporting_views": [
+    "front",
+    "back",
+    "left",
+    "right",
+    "top",
+    "bottom"
+  ],
+  "conflicting_views": [],
+  "confidence": 0.99
+}

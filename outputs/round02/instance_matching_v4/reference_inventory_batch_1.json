@@ -1,0 +1,134 @@
+{
+  "instances": [
+    {
+      "instance_id": "reference_eye_ball_1",
+      "descriptor": "EYE_BALL",
+      "attachment_anchor": "peg in one of the top holes of JOINT_BLUE_Y",
+      "neighboring_parts": [
+        "JOINT_BLUE_Y"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "reference_eye_ball_2",
+      "descriptor": "EYE_BALL",
+      "attachment_anchor": "peg in the other top hole of JOINT_BLUE_Y",
+      "neighboring_parts": [
+        "JOINT_BLUE_Y"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "reference_eye_ball_3",
+      "descriptor": "EYE_BALL",
+      "attachment_anchor": "peg in center hole of JOINT_BLUE_Y",
+      "neighboring_parts": [
+        "JOINT_BLUE_Y"
+      ],
+      "supporting_views": [
+        "front",
+        "left",
+        "right",
+        "top"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "reference_eye_ball_4",
+      "descriptor": "EYE_BALL",
+      "attachment_anchor": "hole on back peg of BLOCK_GREEN_4HOLE_2PEG",
+      "neighboring_parts": [
+        "BLOCK_GREEN_4HOLE_2PEG"
+      ],
+      "supporting_views": [
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "reference_joint_blue_y_1",
+      "descriptor": "JOINT_BLUE_Y",
+      "attachment_anchor": "base peg in top hole of BLOCK_GREEN_4HOLE_2PEG",
+      "neighboring_parts": [
+        "BLOCK_GREEN_4HOLE_2PEG",
+        "EYE_BALL"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "reference_connector_orange_1",
+      "descriptor": "CONNECTOR_ORANGE",
+      "attachment_anchor": "base pegs in top holes of BLOCK_YELLOW_CUBE",
+      "neighboring_parts": [
+        "BLOCK_YELLOW_CUBE"
+      ],
+      "supporting_views": [
+        "front",
+        "left",
+        "right",
+        "top"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "reference_block_yellow_cube_1",
+      "descriptor": "BLOCK_YELLOW_CUBE",
+      "attachment_anchor": "back peg in front hole of BLOCK_GREEN_4HOLE_2PEG",
+      "neighboring_parts": [
+        "CONNECTOR_ORANGE",
+        "BLOCK_GREEN_4HOLE_2PEG"
+      ],
+      "supporting_views": [
+        "front",
+        "left",
+        "right",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "reference_block_green_4hole_2peg_1",
+      "descriptor": "BLOCK_GREEN_4HOLE_2PEG",
+      "attachment_anchor": "front hole receives BLOCK_YELLOW_CUBE, top hole receives JOINT_BLUE_Y, back peg receives EYE_BALL",
+      "neighboring_parts": [
+        "JOINT_BLUE_Y",
+        "BLOCK_YELLOW_CUBE",
+        "EYE_BALL"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

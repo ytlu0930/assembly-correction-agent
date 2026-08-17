@@ -1,0 +1,138 @@
+{
+  "instances": [
+    {
+      "instance_id": "current_link_red_3hole_1",
+      "descriptor": "LINK_RED_3HOLE",
+      "attachment_anchor": "Front bumper, attached to the front of the yellow H-joint",
+      "neighboring_parts": [
+        "JOINT_YELLOW_H"
+      ],
+      "supporting_views": [
+        "front",
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_joint_yellow_h_1",
+      "descriptor": "JOINT_YELLOW_H",
+      "attachment_anchor": "Central chassis joint, connecting the left and right chassis rails",
+      "neighboring_parts": [
+        "LINK_RED_3HOLE",
+        "LINK_GREEN_5HOLE",
+        "LINK_BLUE_5HOLE",
+        "PIN_RED_SHORT"
+      ],
+      "supporting_views": [
+        "front",
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_link_green_5hole_1",
+      "descriptor": "LINK_GREEN_5HOLE",
+      "attachment_anchor": "Left chassis rail, attached to the left side of the yellow H-joint",
+      "neighboring_parts": [
+        "JOINT_YELLOW_H"
+      ],
+      "supporting_views": [
+        "front",
+        "top",
+        "bottom",
+        "left",
+        "right",
+        "back"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_link_blue_5hole_1",
+      "descriptor": "LINK_BLUE_5HOLE",
+      "attachment_anchor": "Right chassis rail, attached to the right side of the yellow H-joint",
+      "neighboring_parts": [
+        "JOINT_YELLOW_H"
+      ],
+      "supporting_views": [
+        "front",
+        "top",
+        "bottom",
+        "left",
+        "right",
+        "back"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_link_green_5hole_2",
+      "descriptor": "LINK_GREEN_5HOLE",
+      "attachment_anchor": "Tail piece, extending upwards and backwards from the blue face piece",
+      "neighboring_parts": [
+        "PIN_RED_SHORT"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_pin_red_short_1",
+      "descriptor": "PIN_RED_SHORT",
+      "attachment_anchor": "Vertical pin in the center of the blue face piece, securing it to the yellow H-joint",
+      "neighboring_parts": [
+        "JOINT_YELLOW_H"
+      ],
+      "supporting_views": [
+        "front",
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_pin_red_short_2",
+      "descriptor": "PIN_RED_SHORT",
+      "attachment_anchor": "Horizontal pin connecting the blue face piece to the green tail piece",
+      "neighboring_parts": [
+        "LINK_GREEN_5HOLE"
+      ],
+      "supporting_views": [
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "instance_id": "current_pin_red_short_3",
+      "descriptor": "PIN_RED_SHORT",
+      "attachment_anchor": "Horizontal pin through the green tail piece, holding the two side eyes",
+      "neighboring_parts": [
+        "LINK_GREEN_5HOLE"
+      ],
+      "supporting_views": [
+        "front",
+        "back",
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

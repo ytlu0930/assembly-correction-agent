@@ -1,0 +1,64 @@
+{
+  "target_descriptor": "PIN_RED_SHORT",
+  "candidates": [
+    {
+      "candidate_id": "pin_red_short_front_left",
+      "bbox": [
+        338,
+        356,
+        506,
+        422
+      ],
+      "point": [
+        422,
+        389
+      ],
+      "structural_relation": "inserted into the left hole of the blue U-shaped part",
+      "neighboring_parts": [
+        "blue U-shaped part"
+      ],
+      "comparison_result": "current_only",
+      "confidence": 0.99
+    },
+    {
+      "candidate_id": "pin_red_short_back_upper",
+      "bbox": [
+        147,
+        421,
+        185,
+        585
+      ],
+      "point": [
+        166,
+        453
+      ],
+      "structural_relation": "inserted into the upper hole of the rear green rod",
+      "neighboring_parts": [
+        "green rod"
+      ],
+      "comparison_result": "current_only",
+      "confidence": 0.9
+    },
+    {
+      "candidate_id": "pin_red_short_back_lower",
+      "bbox": [
+        218,
+        425,
+        252,
+        578
+      ],
+      "point": [
+        235,
+        453
+      ],
+      "structural_relation": "inserted into the lower hole of the rear green rod",
+      "neighboring_parts": [
+        "green rod"
+      ],
+      "comparison_result": "present_in_both",
+      "confidence": 0.9
+    }
+  ],
+  "selected_candidate_id": "pin_red_short_front_left",
+  "localization_status": "verified"
+}

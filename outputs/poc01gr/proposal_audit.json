@@ -1,0 +1,24 @@
+{
+  "experiment": "POC-01G-R",
+  "upstream_hypothesis_source": "outputs/poc01fb/raw_diagnosis.json",
+  "descriptor": "PIN_RED_SHORT",
+  "descriptor_source": "agent_generated",
+  "human_gt_used": false,
+  "correct_reference_used": false,
+  "structural_location_prose_used": false,
+  "gemini_calls": 0,
+  "working_max_dimension": 1200,
+  "candidate_counts": {
+    "front": 6,
+    "back": 5,
+    "left": 6,
+    "right": 8,
+    "top": 7,
+    "bottom": 7
+  },
+  "candidate_total": 39,
+  "maximum_candidate_aspect_ratio": 4.130434782608695,
+  "minimum_candidate_density": 0.45689655172413796,
+  "p1_objectness": "pending_human_validation",
+  "p2_visible_recall": "pending_human_validation"
+}
